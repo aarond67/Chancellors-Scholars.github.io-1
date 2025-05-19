@@ -1,3 +1,5 @@
+import peermentors from '../img/peer-mentoring/2023-2024/peer-mentoring-group.png';
+
 function PeerMentor() {
     return(
         <>
@@ -23,7 +25,7 @@ function PeerMentor() {
                     <h1>2023-2024 Mentors</h1>
                     {/* college specific colors */}
                     <img alt="group picture" className="group_photo"
-                        src="img/peer-mentoring/2023-2024/peer-mentoring-group.png" />
+                        src={peermentors} />
                 </div>
             </div>
     </>

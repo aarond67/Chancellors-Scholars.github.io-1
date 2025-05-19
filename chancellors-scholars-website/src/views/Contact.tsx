@@ -1,3 +1,6 @@
+import linkedInIcon from '../img/linkedin_logo.png';
+import instagramIcon from '../img/instagram_logo.png';
+
 function Contact() {
     return(
         <div className="container contact-main">
@@ -38,10 +41,10 @@ function Contact() {
                     <h4>Social Media</h4>
                     <div className="social-media">
                         <div className="col-sm-2">
-                            <a href="https://www.instagram.com/ucsdcsascholars/" target="_blank" title="Instagram"><img alt="instagram" src="img/instagram_logo.png" /></a>
+                            <a href="https://www.instagram.com/ucsdcsascholars/" target="_blank" title="Instagram"><img alt="instagram" src={instagramIcon} /></a>
                         </div>
                         <div className="col-sm-2">
-                            <a href="https://www.linkedin.com/organization-guest/school/uc-san-diego-chancellor-s-scholars-program/" target="_blank" title="LinkedIn"><img alt="linkedin" src="img/linkedin_logo.png" /></a>
+                            <a href="https://www.linkedin.com/organization-guest/school/uc-san-diego-chancellor-s-scholars-program/" target="_blank" title="LinkedIn"><img alt="linkedin" src={linkedInIcon} /></a>
                         </div>
                         <div className="col-sm-8">
                             {/* placeholder for alignment, replace with actual links when those accounts are set up */}

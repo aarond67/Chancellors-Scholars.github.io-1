@@ -1,3 +1,16 @@
+const images = import.meta.glob<{default: string}>(
+    '../img/spotlight/*.{jpg,jpeg,png}', // Specify the path to headshots and add all relevant file extensions
+    { eager: true }
+);
+
+
+const spotlightHeadshots = Object.fromEntries(
+    Object.entries(images).map(([path, module]) => {
+        const fileName = path.split('/').pop();
+        return [fileName, module.default];
+    })
+);
+
 function Spotlight() {
     return(
         <div className="container csa-board text-center">
@@ -12,7 +25,7 @@ function Spotlight() {
                 {/* TEMPLATE
                 <div className="spotlight-scholar">
                     <div className="col-sm-4 peer-mentoring-image">
-                    <img alt="board picture" className="lazy" data-original="" />
+                    <img alt="board picture" className="lazy" src="" />
                     </div>
                     <div className="col-sm-3 spotlight-desc">
                         <h4> <b> STUDENT_FIRST_NAME STUDENT_LAST_NAME </b> </h4>
@@ -30,7 +43,7 @@ function Spotlight() {
                 </div>  */}
                 <div className="spotlight-scholar">
                     <div className="col-sm-4 peer-mentoring-image">
-                    <img alt="board picture" className="lazy" data-original="img\spotlight\Rhianen_Callahan.jpeg" />
+                    <img alt="board picture" className="lazy" src={spotlightHeadshots['Rhianen Callahan.jpeg']} />
                     </div>
                     <div className="col-sm-3 spotlight-desc">
                         <h4> <b> Rhianen Callahan </b> </h4>
@@ -57,7 +70,7 @@ function Spotlight() {
 
                 <div className="spotlight-scholar">
                     <div className="col-sm-4 peer-mentoring-image">
-                    <img alt="board picture" className="lazy" data-original="img\peer-mentoring\2019-2020\Rachel_Luu.jpg" />
+                    <img alt="board picture" className="lazy" src={spotlightHeadshots['Rachel Luu.jpg']} />
                     </div>
                     <div className="col-sm-3 spotlight-desc">
                         <h4> <b> Rachel Luu </b> </h4>
@@ -84,7 +97,7 @@ function Spotlight() {
 
                 <div className="spotlight-scholar">
                     <div className="col-sm-4 peer-mentoring-image">
-                    <img alt="board picture" className="lazy" data-original="img\board\sonali_bhanvadia.jpeg" />
+                    <img alt="board picture" className="lazy" src={spotlightHeadshots['Sonali Bhanvadia.jpeg']} />
                     </div>
                     <div className="col-sm-3 spotlight-desc">
                         <h4> <b> Sonali Bhanvadia </b> </h4>
@@ -121,7 +134,7 @@ function Spotlight() {
 
                 <div className="spotlight-scholar">
                     <div className="col-sm-4 peer-mentoring-image">
-                    <img alt="board picture" className="lazy" data-original="img\peer-mentoring\2019-2020\Phillip_Vally.jpg" />
+                    <img alt="board picture" className="lazy" src={spotlightHeadshots['Phillip Vally.jpg']} />
                     </div>
                     <div className="col-sm-3 spotlight-desc">
                         <h4> <b> Phillip Vally </b> </h4>
@@ -147,7 +160,7 @@ function Spotlight() {
 
                 <div className="spotlight-scholar">
                     <div className="col-sm-4 peer-mentoring-image">
-                    <img alt="board picture" className="lazy" data-original="img/board/alex_velazquez2.JPG" />
+                    <img alt="board picture" className="lazy" src={spotlightHeadshots['Alex Velazquez.jpg']} />
                     </div>
                     <div className="col-sm-3 spotlight-desc">
                         <h4> <b> Alexis Velazquez Olivera </b> </h4>
@@ -193,7 +206,7 @@ function Spotlight() {
                 
                 <div className="spotlight-scholar">
                     <div className="col-sm-4 peer-mentoring-image">
-                        <img alt="board picture" className="lazy" data-original="img/peer-mentoring/2018-2019/cindy_ayala.jpg" />
+                        <img alt="board picture" className="lazy" src={spotlightHeadshots['Cindy Ayala.jpg']} />
                     </div>
                     <div className="col-sm-3 spotlight-desc">
                         <h4> <b> Cindy Ayala </b> </h4>

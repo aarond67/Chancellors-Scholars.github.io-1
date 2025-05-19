@@ -1,10 +1,9 @@
 import { NavLink } from "react-router-dom";
-import CSAIcon from "../img/csa-icon-no-letter.png";
 
 const images = import.meta.glob<{default: string}>(
     '../img/homepage/*.{jpg,jpeg,JPG,png}', // Specify the path to headshots and add all relevant file extensions
     { eager: true }
-  );
+);
 
 const aboutCollage = Object.fromEntries(
     Object.entries(images).map(([path, module]) => {
@@ -19,7 +18,7 @@ function Homepage() {
       <div className="container-fluid">
         <div
           className="row lazy main-img-bg container-fluid"
-          id="main-bg-img-small"
+          id="main-bg-img"
         >
           <div className="main-title">
             <h1>UC San Diego Chancellor's Scholars Alliance</h1>
