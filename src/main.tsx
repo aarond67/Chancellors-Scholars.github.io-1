@@ -14,7 +14,7 @@ import '../src/css/site-specific.css'
 
 // Routing objects
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   RouteObject,
 } from "react-router-dom";
@@ -113,7 +113,7 @@ const routes: RouteObject[] = [
   } 
 ];
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   ...routes
 ]);
 
