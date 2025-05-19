@@ -4,23 +4,25 @@ function About() {
       {/* background graphic w/ updates */}
       <div className="container-fluid">
         <div
-          className="row lazy"
-          id="main-bg-img"
+          className="row lazy main-bg-img"
+          id="about-banner"
           data-original="resources/2019 MLK Parade.jpg"
-          style={{
-            backgroundImage: "url('../img/2019 MLK Parade.jpg')",
-            backgroundSize: "cover",
-          }}
+          
         >
           <div className="text-center main-col-single">
-            <h1 className="animated fadeIn">About Us</h1>
+            <h1 className="animated fadeIn" 
+              style={{
+                  textShadow: "3px 3px 7px #25291C, -3px -3px 7px #25291C, -3px 3px 7px #25291C, 3px -3px 7px #25291C",
+                  color: "#fff", // optional: helps make it pop
+              }}>
+                  About Us
+            </h1>
           </div>
         </div>
       </div>
       {/* second row, main content about us */}
       <div className="container" style={{ padding: "25px" }}>
         <div className="row">
-          <hr />
           <h2>
             <center>Our Mission Statement</center>
           </h2>

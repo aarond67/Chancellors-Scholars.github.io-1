@@ -19,7 +19,7 @@ function EventsGrid({ events }: EventsProps){
                         className="event-card"
                         width={400}
                         referrerPolicy="no-referrer" // Without this, we get 429 error on fetch https://stackoverflow.com/questions/79052869/google-drive-returns-429-when-using-saved-photo-as-src-for-img-tag 
-                        loading="lazy"
+                        loading="eager"
                     />
                 </a>
             ))}

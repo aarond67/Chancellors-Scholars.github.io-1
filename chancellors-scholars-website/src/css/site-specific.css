@@ -19,6 +19,15 @@ h2 {
   font-family: 'Manrope', sans-serif;
 }
 
+h4 {
+  font-size: 1.25rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+footer {
+  background-color: #4C81C5;
+}
+
 p {
   font-size: 1rem;
   font-family: 'Sora', sans-serif;
@@ -199,10 +208,6 @@ small {
   margin-bottom: 3vw;
 }
 
-footer {
-  background-color: #ffffff;
-}
-
 .gray {
   background-color: #d3d3d3;
 }
@@ -233,8 +238,8 @@ footer {
   height: 100%;
 }
 
-#main-bg-img {
-  height: 40vw;
+.main-bg-img {
+  height: 30vw;
   position: relative;
   background: #FEF9EF;
   display: flex;
@@ -243,15 +248,25 @@ footer {
   flex-direction: column;
 }
 
-#main-bg-img-small {
-  min-height: 20vw;
-  max-height: fit-content;
-  position: relative;
-  background: #FEF9EF;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
+#home-banner {
+  background-image: url('../img/geisel.png');
+  background-color: #ffffff;
+  background-position-y: 25%;
+  background-size: 100%;
+}
+
+#journals-banner {
+  background-image: url('../img/CSP_logo_50.png');
+  background-color: #ffffff;
+  background-position-y: 25%;
+  background-size: 100%;
+}
+
+#about-banner {
+  background-image: url('../img/2019 MLK Parade.png');
+  background-color: #ffffff;
+  background-size: cover;
+  background-position-y: 40%;
 }
 
 .main-col {
@@ -337,6 +352,10 @@ footer {
 
 .page-container {
   min-height: 70vh;
+}
+
+.site-links > div > a {
+  color: #FBFEF9;
 }
 
 .social-media img {
