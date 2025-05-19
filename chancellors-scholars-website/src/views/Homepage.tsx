@@ -8,7 +8,7 @@ import EventsGrid from "../components/EventsGrid";
 const images = import.meta.glob<{default: string}>(
     '../img/homepage/*.{jpg,jpeg,JPG,png}', // Specify the path to headshots and add all relevant file extensions
     { eager: true }
-  );
+);
 
 // Takes the imported images and creates references to use in the returned TSX 
 const aboutCollage = Object.fromEntries(
@@ -41,7 +41,7 @@ function Homepage() {
       {/* background graphic */}
       <div className="container-fluid main-bg-img" id="home-banner" >
         <div
-          className="container-fluid"
+          className="row lazy container-fluid"
         >
           <div className="text-center" id='home-title'>
             <h1 style={{
