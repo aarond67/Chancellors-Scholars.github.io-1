@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   assetsInclude: ['**/*.JPG'],
-  base: '/', // Base URL for GitHub Pages
+  base: '/chancellors-scholars', // Base URL for GitHub Pages
   plugins: [react()],
 })

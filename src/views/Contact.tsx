@@ -13,29 +13,25 @@ function Contact() {
 
                 <div className="col-sm-6 col-1">
                     <h4>Email</h4>
-                    Chancellor's Scholars Program
-                    <br />
-                    <a href="mailto:ChancellorsScholars@gmail.com">ChancellorsScholars@ucsd.edu</a>
-                    <br />
-                    <br />
-                    Chancellor's Scholars Alliance Student Board
-                    <br />
-                    <a href="mailto:cscholarsall@ucsd.edu">cscholarsall@ucsd.edu</a>
-                    <br />
-                    <br />
-                    Emeriti Mentor Program
-                    <br />
-                    <a href="mailto:EmeritiMentor@gmail.com">EmeritiMentor@ucsd.edu</a>
-                    <br />
-                    <br /> 
-                    Chancellor's Scholars Alliance President 
-                    <br />
-                    <a href="mailto:k7cheung@ucsd.edu"> Keene Cheung </a>
-                    <br />
-                        <br />Webmasters<br />
-                    <a href="mailto:cag013@ucsd.edu"> Carlos Gomez </a>
-                    <br />
-                    <a href="mailto:fdang@ucsd.edu"> Foster Dang </a>
+                    <p>
+                        Chancellor's Scholars Program
+                    </p>
+                    <a href="mailto:ChancellorsScholars@gmail.com"><p>ChancellorsScholars@ucsd.edu</p></a>
+                    <p>
+                        Chancellor's Scholars Alliance Student Board
+                    </p>
+                    <a href="mailto:cscholarsall@ucsd.edu"><p>cscholarsall@ucsd.edu</p></a>
+                    <p>
+                        Emeriti Mentor Program
+                    </p>
+                    <a href="mailto:EmeritiMentor@gmail.com"><p>EmeritiMentor@ucsd.edu</p></a> 
+                    <p>
+                        Chancellor's Scholars Alliance President 
+                    </p>
+                    <a href="mailto:k7cheung@ucsd.edu"><p>Keene Cheung</p></a>
+                    <p>Webmasters</p>
+                    <a href="mailto:cag013@ucsd.edu"><p>Carlos Gomez</p></a>
+                    <a href="mailto:fdang@ucsd.edu"><p>Foster Dang</p></a>
                 </div>
                 <div className="col-sm-6 col-2">
                     <h4>Social Media</h4>

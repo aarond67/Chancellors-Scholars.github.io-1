@@ -1,12 +1,18 @@
-/* Simple and Clean CSS, ordered in Alphabetical order */
+/* Simple and Clean CSS, ordered in Alphabetical order*/
+#bootstrap-overrides { 
+  /* 
+  All styles below will inherently take priority over bootstrap styles 
+  https://stackoverflow.com/questions/20721248/how-can-i-override-bootstrap-css-styles 
+  */
+
 body,
 html {
   font-size: 16px;
   font-family: "Sora", sans-serif;
 }
-
 a, a:active, a:focus {
-   outline: none;
+  outline: none;
+  font-family: 'Sora', sans-serif;
 }
 
 h1 {
@@ -108,7 +114,7 @@ small {
 .csa-board .col-sm-6 {
   border: 1px solid rgba(233, 233, 233, 0.7);
   padding: 10px;
-  min-height: 550px;
+  min-height: 600px;
 }
 
 .csa-board > .col-sm-3 {
@@ -297,11 +303,9 @@ small {
   left: 0px;
 }
 
-.main-img-board {
-  position: absolute;
+.board-image > img {
   border-radius: 50%;
-  height: 5.5vw;
-  width: 5.5vw;
+  height: auto;
   /* object-fit: scale-down; */
 }
 
@@ -311,6 +315,8 @@ small {
 }
 
 /* Navbar */
+.navbar-default {
+}
 .navbar-default .navbar-nav > li > a {
   color: #FBFEF9;
   padding-left: 12px;
@@ -339,6 +345,11 @@ small {
   border-top: 6px solid #335785;
 }
 
+@media (min-width:768px) {
+  .navbar {
+    border-radius: 0px;
+  }
+}
 
 #navbar-brand {
   padding: 6px;
@@ -470,4 +481,5 @@ small {
   padding: 0px;
   background-color: #fdfdfd;
   font-size: 14px;
+}
 }

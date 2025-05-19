@@ -11,7 +11,7 @@ function Footer() {
                 <div className="container">
                     <div className="row">
                         <div className="logo col-sm-4">
-                        <img className="lazy" loading="lazy" alt="csa logo" style={{borderRadius:'50%', marginTop:'20px'}}src={CSALogo} />
+                        <img className="lazy" loading="lazy" alt="csa logo" style={{borderRadius:'50%', marginTop:'20px', marginBottom:'20px'}}src={CSALogo} />
                         </div>
                 
                         <div className="site-map col-sm-4">

@@ -25,15 +25,15 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
 </head>
-  <body>
+  <body id="bootstrap-overrides"> <!-- Used to create classes/rulesets to override bootstrap https://stackoverflow.com/questions/20721248/how-can-i-override-bootstrap-css-styles-->
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     
-    <!-- scripts placed at bottom to not defer loading -->
+    <!-- External scripts placed at bottom to not defer loading -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.lazyload.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/jquery.lazyload.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         $(".lazy").lazyload({
