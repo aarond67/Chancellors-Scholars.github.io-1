@@ -6,234 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="The official website of the Chancellor's Scholars Alliance.">
-  <meta name="author" content="AllenG">
   <link rel="icon" href="img/csa-icon.png">
 
   <title>Chancellor's Scholars Alliance</title>
+  <!-- Font Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Sora&display=swap" rel="stylesheet">
 
-  <!-- core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--  -->
+  <link href="src/css/animate.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/site-specific.css?v1.01">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-
+  <link rel="stylesheet" href="src/css/site-specific.css">
+  
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
 </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- scripts placed at bottom to not defer loading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".lazy").lazyload({
+          effect: "fadeIn",
+        });
 
-<body>
-
-  <!-- top navigation -->
-  <nav class="navbar navbar-default csa-nav">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#csa-top-nav"
-          aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Chancellor's Scholars Alliance</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="csa-top-nav">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="journals.html">CS Journals</a></li>
-          <li><a href="meettheboard.html">Meet the Board</a></li>
-          <li><a href="peer-mentoring.html"> Peer Mentoring </a></li>
-          <li><a href="spotlight.html"> Spotlight </a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-  <!-- background graphic w/ updates -->
-  <div class="container-fluid">
-    <!-- <div class="row lazy main-img-bg" id="main-bg-img"  style="background-image:url(img/white_geisel.png)"> -->
-    <div class="main-img-container">
-      <div class="row lazy main-img-bg" id="main-bg-img" style="background-image:url(img/homepage-background.jpg)">
-        <img class="main-img-board main-img-pres" alt="President" src="img/board/2024-2025/Keene Cheung.JPG"/>
-        <img class="main-img-board main-img-sec" alt="Vice President" src="img/board/2024-2025/Kristilynn Effie.jpg"/>
-        <img class="main-img-board main-img-sec2" alt="Secretary" src="img/board/2024-2025/Aryanna Ileto.jpeg">
-        <img class="main-img-board main-img-tres" alt="Treasurer" src="img/board/2024-2025/Grace Carter.jpg"/>
-        <img class="main-img-board main-img-tres2" alt="Treasurer" src="img/board/2024-2025/Sirajam Munira.jpg"/>
-        <img class="main-img-board main-img-peer" alt="Peer Mentor Chair" src="img/board/2024-2025/Emily Park.JPG"/>
-        <img class="main-img-board main-img-peer2" alt="Peer Mentor Chair" src="img/board/2024-2025/Jervic Aquino.jpg"/>
-        <img class="main-img-board main-img-web" alt="Social Chair" src="img/board/2024-2025/Andrew Doan.jpg"/>
-        <img class="main-img-board main-img-web2" alt="Social Chair" src="img/board/2024-2025/Reynelle Aricheta.jpeg"/>
-        <img class="main-img-board main-img-social" alt="Volunteer Chair" src="img/board/2024-2025/Annie Tran.jpeg"/>
-        <img class="main-img-board main-img-social2" alt="Volunteer Chair" src="img/board/2024-2025/Desiree Menjivar.jpg"/>
-        <img class="main-img-board main-img-senior" alt="Freshman Ambassador" src="img/board/2024-2025/Leyna Thai.jpeg"/>
-        <img class="main-img-board main-img-vol" alt="Webmaster" src="img/board/2024-2025/Foster Dang.jpg"/>
-        <img class="main-img-board main-img-vol2" alt="Webmaster" src="img/board/2024-2025/Carlos Gomez.jpg"/>
-        <img class="main-img-board main-img-media" alt="Publicity Chair" src="img/board/2024-2025/Phuong Nguyen.jpeg"/>
-        <img class="main-img-board main-img-large" alt="Publicity Chair" src="img/board/2024-2025/Maria Habashy.jpeg"/>
-        <img class="main-img-board main-img-large2" alt="Director at Large" src="img/board/2024-2025/Felicia Gallardo.jpeg">
-        <img class="main-img-board main-img-fresh" alt="Director at Large" src="img/board/2024-2025/Kaitlyn Tan.jpeg"/>
-      </div>
-      <div class="col-sm-3 main-col csa-main-col-1"></div>
-    </div>
-  </div>
-      <!-- <div class="col-xs-12 col-sm-9 main-col csa-main-col-2">
-        <div class="csa-main-updates">
-          <div class="header-1 text-center">
-            CSA Announcements
-          </div>
-          <div class="csa-main-updates-list">
-              <strong>
-                <p><b> Welcome to the official website of the UC San Diego Chancellor's Scholars Association. </b> Keep an eye on this website to see the wonderful events we have planned for Fall 2019.</p>
-                <div style="line-height:30%;">
-                <br><br>
-              </div>
-              <p> Keep track of our events by adding <a href="https://calendar.google.com/calendar/b/2?cid=Yy5zY2hvbGFycy5hbGxAZ21haWwuY29t"> our calendar </a> to your Google calendar. Sign up for Chancellor's Scholars Programs events <a href="https://hrweb.ucsd.edu/ea/" target="_blank"> here</a>.</p>
-
-    UPDATE CHANCELLOR'S SCHOLARS CALENDARS HERE
-    <a href="resources/freshman calendar17.pdf">Schedule for Freshman Chancellor's Scholars</a>
-    <br>
-    <a href="resources/ACSP-Calendar_2016-2017 (002).pdf">Schedule for Adv. Chancellor's Scholars</a>
-            </strong>
-          </div>
-        </div>
-      </div> -->
-
-  <!-- end graphic + updates -->
-
-  <!-- second row, mission statement, calendar, etc. -->
-  <div class="container csa-pitch">
-    <div class="row text-center">
-      <hr />
-      <div style="width:75%; margin:auto">
-        <span style="font-weight:bold;font-size:26px">CSA Announcements</span> 
-        <br> 
-        <br>
-        <p><b> Welcome to the official website of the UC San Diego Chancellor's Scholars Association. </b> Keep an eye
-          on this website to see the wonderful events we have planned for the 2024-2025 academic year.
-        </p> 
-        <br>
-        <p> Keep track of our events by adding <a
-            href="https://calendar.google.com/calendar/embed?src=cscholarsall%40ucsd.edu&ctz=America%2FLos_Angeles"> our
-            calendar </a> to your Google calendar.</a>
-        </p>
-      </div>
-    </div>
-    <div class="row">
-    <hr />
-    <div class="col-sm-5">
-      <!--  -->
-      <div class="event-col col-sm-12">
-        <h3> Events </h3>
-        <div class="col-sm-4">
-          <p> <b> Location </b> </p>
-        </div>
-        <div class="col-sm-4">
-          <p> <b> Date </b> </p>
-        </div>
-        <div class="col-sm-4">
-          <p> <b> Time </b> </p>
-        </div>
-      </div>
-      <!-- Events listed below -->
-      <!--  -->
-      
-
-      <!-- Use for future events
-        <div class="event-item col-sm-12">
-          <div class="event-header">
-            <h4> <b> HEADER </b></h4>
-            <div class="col-sm-4">
-              <p> <b> LOCATION </b></p>
-            </div>
-            <div class="col-sm-4">
-              <p> <b> DATE </b> </p>
-            </div>
-            <div class="col-sm-4">
-              <p> <b> TIME </b> </p>
-            </div>
-          </div>
-            <div class="col-sm-12 text-center">
-              <p> DESCRIPTION </p>
-            </div>
-        </div>
-      -->
-    </div>
-
-    <div class="col-sm-7">
-      <iframe src="https://calendar.google.com/calendar/embed?src=cscholarsall%40ucsd.edu&ctz=America%2FLos_Angeles"
-        style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
-  </div>
-
-  <footer>
-    <div class="bar-divider gray"></div>
-    <div class="container">
-      <div class="row">
-        <div class="logo col-sm-4">
-          <img class="lazy" alt="csa logo" data-original="img/csa-logo.jpg" src="" />
-        </div>
-
-        <div class="site-map col-sm-4">
-          <h4>Site</h4>
-          <div class="site-links">
-            <div><a href="index.html">Home</a></div>
-            <div><a href="events.html">Events</a></div>
-            <div><a href="about.html">About</a></div>
-            <div><a href="journals.html">CS Journals</a></div>
-            <div><a href="meettheboard.html">Meet the Board</a></div>
-            <div><a href="contact.html">Contact</a></div>
-          </div>
-        </div>
-
-        <div class="follow col-sm-4">
-          <h4>Follow us!</h4>
-          <div class="social-media">
-            <div class="col-sm-3">
-              <a href="https://www.instagram.com/ucsdcsascholars/" target="_blank" title="Instagram"><img
-                  alt="instagram" src="img/instagram_logo.png"
-                  width="200"/></a>
-            </div>
-            <div class="col-sm-3">
-              <a href="https://www.linkedin.com/organization-guest/school/uc-san-diego-chancellor-s-scholars-program/" target="_blank" title="LinkedIn"><img
-                  alt="linkedin" src="img/linkedin_logo.png"/>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row text-center">
-        <p>&copy; 2024 Chancellor's Scholars Alliance</p>
-      </div>
-    </div>
-  </footer>
-</body>
-
-<!-- scripts placed at bottom to not defer loading -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/jquery.lazyload.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function () {
-    $('.lazy').lazyload({
-      effect: 'fadeIn'
-    });
-
-    $('nav li:not(.active)').hover(function () {
-      $(this).addClass('active');
-    },
-      function () {
-        $(this).removeClass('active');
+        $("nav li:not(.active)").hover(
+          function () {
+            $(this).addClass("active");
+          },
+          function () {
+            $(this).removeClass("active");
+          }
+        );
       });
-  });
-</script>
-
+    </script>
+  </body>
 </html>
