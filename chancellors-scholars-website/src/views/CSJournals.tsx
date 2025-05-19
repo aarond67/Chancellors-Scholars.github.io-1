@@ -1,10 +1,11 @@
+import CSPBanner from '../img/CSP_logo_50.png'
 function CSJournals() {
     return (
       <>
         {/* background graphic w/ updates  */}
         <div className="container-fluid">
-          <div className="row lazy" id="main-bg-img" data-original="img/CSP_logo_50.png"
-            style={{backgroundImage: "url(./img/CSP_logo_50.png)", backgroundSize: "cover", opacity:"0.8"}}>
+          <div className="row lazy main-bg-img" id="journals-banner"
+            style={{backgroundImage: CSPBanner, backgroundSize: "cover", opacity:"0.8"}}>
             <div className="text-center main-col-single">
               <h1 className="animated fadeIn"
                 style={{
