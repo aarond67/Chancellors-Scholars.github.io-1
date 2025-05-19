@@ -1,9 +1,12 @@
 /* Simple and Clean CSS, ordered in Alphabetical order */
-
 body,
 html {
   font-size: 16px;
   font-family: "Sora", sans-serif;
+}
+
+a, a:active, a:focus {
+   outline: none;
 }
 
 h1 {
@@ -14,6 +17,15 @@ h1 {
 h2 {
   font-size: 2rem;
   font-family: 'Manrope', sans-serif;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+footer {
+  background-color: #4C81C5;
 }
 
 p {
@@ -33,6 +45,7 @@ small {
   display: flex;
   min-height: 30vw;
   justify-content: space-between;
+  padding: 15px;
 }
 
 #about-us-blurb {
@@ -46,7 +59,6 @@ small {
 .bar-divider {
   width: 100%;
   height: 2px;
-  margin: 15px 0;
 }
 
 #collage {
@@ -74,6 +86,7 @@ small {
   height: 40px;
   justify-content: space-around;
   align-items: center;
+  margin: 15px;
 }
 
 #contact-button > a {
@@ -176,8 +189,23 @@ small {
   padding: 3px 5px;
 }
 
-footer {
-  background-color: #ffffff;
+.event-card {
+  transition: all 0.3s;
+}
+
+.event-card:hover {
+  transform: scale(1.03);
+}
+
+#event-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    min-height: 200px;
+}
+
+#event-container {
+  margin-bottom: 3vw;
 }
 
 .gray {
@@ -188,9 +216,17 @@ footer {
   font-size: 18px;
 }
 
-#home-about-us {
+.home-section {
   background-color: #E6E8E6;
+  margin-top: 3vw;
+  /* margin-bottom: 3vw; */
+}
 
+#home-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
 }
 
 .logo {
@@ -202,8 +238,8 @@ footer {
   height: 100%;
 }
 
-#main-bg-img {
-  height: 40vw;
+.main-bg-img {
+  height: 30vw;
   position: relative;
   background: #FEF9EF;
   display: flex;
@@ -212,15 +248,25 @@ footer {
   flex-direction: column;
 }
 
-#main-bg-img-small {
-  height: 20vw;
-  position: relative;
-  background: #FEF9EF;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  border-bottom: 3px solid #25291C;
+#home-banner {
+  background-image: url('../img/geisel.png');
+  background-color: #ffffff;
+  background-position-y: 25%;
+  background-size: 100%;
+}
+
+#journals-banner {
+  background-image: url('../img/CSP_logo_50.png');
+  background-color: #ffffff;
+  background-position-y: 25%;
+  background-size: 100%;
+}
+
+#about-banner {
+  background-image: url('../img/2019 MLK Parade.png');
+  background-color: #ffffff;
+  background-size: cover;
+  background-position-y: 40%;
 }
 
 .main-col {
@@ -261,7 +307,7 @@ footer {
 
 .main-title {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 /* Navbar */
@@ -269,35 +315,47 @@ footer {
   color: #FBFEF9;
   padding-left: 12px;
   padding-right: 12px;
+  border-bottom: 6px solid #4C81C5;
+  border-top: 6px solid #4C81C5;
+}
+
+.navbar-default .navbar-nav > li > .active {
+  border-bottom: 6px solid #335785;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-
-  background-color: transparent;
+  background-color:  #335785;
+  color: #FBFEF9;
 }
 
-.navbar-default .navbar-nav > a {
-  border-bottom: 4px;
-  color: #25291C;
+.navbar-default .navbar-nav>li>a:focus {
+  color: #FBFEF9;
 }
 
-.navbar-default .navbar-nav > .active:nth-child(odd) {
-  border-bottom: 4px solid #335785;
+.navbar-default .navbar-nav > .active > a {
+  border-bottom: 6px solid #335785;
+  border-top: 6px solid #335785;
 }
 
-.navbar-default .navbar-nav > .active:nth-child(even) {
-  border-bottom: 4px solid #67280b;
-}
 
 #navbar-brand {
   padding: 6px;
+  padding-top: 10px;
   padding-left: 20px;
 }
 
 #navbar-brand > img {
   border-radius: 48%;
+}
+
+.page-container {
+  min-height: 70vh;
+}
+
+.site-links > div > a {
+  color: #FBFEF9;
 }
 
 .social-media img {
@@ -376,10 +434,6 @@ footer {
   border-radius: 10%;
 }
 
-.event-header {
-  text-align: center;
-}
-
 .event-col {
   background-color: #e3e9ff;
   padding: 10px;
@@ -387,12 +441,6 @@ footer {
   text-align: center;
   /*height: 100px;*/
   margin: 0px;
-}
-
-.event-item {
-  padding: 10px;
-  /* height: 150px; */
-  border-bottom: 1px solid #ddd;
 }
 
 .journal-intro {
