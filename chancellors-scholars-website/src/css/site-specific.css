@@ -1,5 +1,4 @@
 /* Simple and Clean CSS, ordered in Alphabetical order */
-
 body,
 html {
   font-size: 16px;
@@ -33,6 +32,7 @@ small {
   display: flex;
   min-height: 30vw;
   justify-content: space-between;
+  padding: 15px;
 }
 
 #about-us-blurb {
@@ -46,7 +46,6 @@ small {
 .bar-divider {
   width: 100%;
   height: 2px;
-  margin: 15px 0;
 }
 
 #collage {
@@ -74,6 +73,7 @@ small {
   height: 40px;
   justify-content: space-around;
   align-items: center;
+  margin: 15px;
 }
 
 #contact-button > a {
@@ -176,6 +176,25 @@ small {
   padding: 3px 5px;
 }
 
+.event-card {
+  transition: all 0.3s;
+}
+
+.event-card:hover {
+  transform: scale(1.03);
+}
+
+#event-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    min-height: 200px;
+}
+
+#event-container {
+  margin-bottom: 3vw;
+}
+
 footer {
   background-color: #ffffff;
 }
@@ -188,9 +207,17 @@ footer {
   font-size: 18px;
 }
 
-#home-about-us {
+.home-section {
   background-color: #E6E8E6;
+  margin-top: 3vw;
+  /* margin-bottom: 3vw; */
+}
 
+#home-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
 }
 
 .logo {
@@ -213,14 +240,14 @@ footer {
 }
 
 #main-bg-img-small {
-  height: 20vw;
+  min-height: 20vw;
+  max-height: fit-content;
   position: relative;
   background: #FEF9EF;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  border-bottom: 3px solid #25291C;
 }
 
 .main-col {
@@ -261,7 +288,7 @@ footer {
 
 .main-title {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 /* Navbar */
@@ -298,6 +325,10 @@ footer {
 
 #navbar-brand > img {
   border-radius: 48%;
+}
+
+.page-container {
+  min-height: 70vh;
 }
 
 .social-media img {
@@ -376,10 +407,6 @@ footer {
   border-radius: 10%;
 }
 
-.event-header {
-  text-align: center;
-}
-
 .event-col {
   background-color: #e3e9ff;
   padding: 10px;
@@ -387,12 +414,6 @@ footer {
   text-align: center;
   /*height: 100px;*/
   margin: 0px;
-}
-
-.event-item {
-  padding: 10px;
-  /* height: 150px; */
-  border-bottom: 1px solid #ddd;
 }
 
 .journal-intro {

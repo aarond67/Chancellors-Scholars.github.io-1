@@ -1,37 +1,60 @@
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import CSAIcon from "../img/csa-icon-no-letter.png";
+import { fetchEventData } from '../scripts/event-script';
+import { EventData } from '../types';
+import EventsGrid from "../components/EventsGrid";
 
+// Imports images from img/homepage folder; imported through glob bundling
 const images = import.meta.glob<{default: string}>(
     '../img/homepage/*.{jpg,jpeg,JPG,png}', // Specify the path to headshots and add all relevant file extensions
     { eager: true }
   );
 
+// Takes the imported images and creates references to use in the returned TSX 
 const aboutCollage = Object.fromEntries(
     Object.entries(images).map(([path, module]) => {
         const fileName = path.split('/').pop();
         return [fileName, module.default];
     })
 );
+
 function Homepage() {
+  // Events from google sheet (initially empty)
+  const [events, setEvents] = useState<EventData[]>([]);
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  // Log the event list (debugging)
+  useEffect(() => {
+    console.log(events);
+  }, [events])
+
+  useEffect(() => {
+    fetchEventData()
+    .then((data: EventData[]) => {
+      setEvents(data);
+      setIsLoaded(true)})
+    .catch(console.error);
+  }, []);
+
   return (
     <div>
       {/* background graphic */}
-      <div className="container-fluid">
+      <div className="container-fluid" id="main-bg-img-small" >
         <div
-          className="row lazy main-img-bg container-fluid"
-          id="main-bg-img-small"
+          className="container-fluid"
         >
-          <div className="main-title">
+          <div className="text-center" id='home-title'>
             <h1>UC San Diego Chancellor's Scholars Alliance</h1>
-          </div>
-          <div id="contact-button">
-            <NavLink to="/contact">Contact Us!</NavLink>
-          </div>
+            <div id="contact-button">
+              <NavLink to="/contact">Contact Us!</NavLink>
+            </div>
         </div>
+          </div>
       </div>
-      {/* second row, mission statement, calendar, etc. */}
-      {/* Container spanning width for bg*/}
-      <div className="container-fluid" id="home-about-us">
+      <div className="bar-divider gray"></div>
+
+      {/* Container spanning full width for about bg*/}
+      <div className="container-fluid home-section">
         {/* Container fit to middle width */}
         <div className="container" id="about-card">
             {/* Text column */}
@@ -78,6 +101,22 @@ function Homepage() {
                     </div>
                 </div>
             </div>
+        </div>
+      </div>
+
+      {/* Container spanning full width for about bg*/}
+      <div className="container-fluid home-section" id="event-container">
+        {/* Container fit to middle width */}
+        <div className="container text-center" id="event-cards">
+          <h1> Events </h1>
+          {/* Generates event cards from the pulled list of events and displays a message if there aren't any events */}
+          <div style={{display: 'flex', justifyContent: 'center'}}>
+            {/* Nested condition where it has two states for when the events have been fetched, and if not then display a loading message */}
+            {isLoaded ? 
+            (events.length > 0 ? (<EventsGrid events={events} />) : (<p style={{ padding: '40px' }}>No events coming up...</p>)) 
+            : (<p style={{ padding: '40px' }}>Loading events...</p>
+            )}
+          </div>
         </div>
       </div>
     </div>
