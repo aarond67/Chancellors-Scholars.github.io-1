@@ -1,3 +1,6 @@
+/**
+ * Simple banner and body text page 
+ */
 import CSPBanner from '../img/CSP_logo_50.png'
 function CSJournals() {
     return (

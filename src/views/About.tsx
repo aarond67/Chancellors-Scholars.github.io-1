@@ -1,3 +1,6 @@
+/**
+ * Simple banner and body text page 
+ */
 function About() {
   return (
     <div>

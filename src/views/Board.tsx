@@ -1,9 +1,18 @@
-// Utilize Vite.js glob bundling/hashing to import headshots
+/**
+ * Collects the images of the current board members and populates a 2 column 
+ * grid with their portraits and introductions  
+ */
+
+// Utilize Vite.js glob bundling/hashing to import headshots as a object
+// containing each image
 const images = import.meta.glob<{default: string}>(
-    '../img/board/2024-2025/*.{jpg,jpeg,JPG,png}', // Specify the path to headshots and add all relevant file extensions
+    // Specify the path to headshots and add all relevant file extensions
+    '../img/board/2024-2025/*.{jpg,jpeg,JPG,png}', 
     { eager: true }
   );
 
+// Converting the object into the array, boardHeadshots where each image is 
+// accessed by the name of the original file 
 const boardHeadshots = Object.fromEntries(
     Object.entries(images).map(([path, module]) => {
         const fileName = path.split('/').pop();
