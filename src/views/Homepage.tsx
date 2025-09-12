@@ -48,7 +48,7 @@ function Homepage() {
                   fontSize: '3.5rem',
                   textShadow: "3px 3px 7px #25291C, -3px -3px 7px #25291C, -3px 3px 7px #25291C, 3px -3px 7px #25291C",
                   color: "#fff", // optional: helps make it pop
-                }}>UC San Diego Chancellor's Scholars Alliance</h1>
+                }}>Chancellor's Scholars Alliance at UC San Diego</h1>
             <div id="contact-button">
               <NavLink to="/contact">Contact Us!</NavLink>
             </div>
