@@ -40,17 +40,16 @@ function Board() {
                         loading="lazy"
                         />
                     </div>
-                    <h4>Keene Cheung - President</h4>
+                    <h4>Grace Carter - President</h4>
                     <div className="board-desc">
                         <p>
-                        Hello! My name is Keene, and I am a third-year Revelle student
-                        double majoring in ICAM Music and Business Economics. My main
-                        hobbies center around music and cooking. I play multiple
-                        instruments but primarily the flute. I am super excited and
-                        thankful to be given the opportunity to serve as this year's CSA
-                        President. I look forward to interacting and working with all of
-                        you to create and foster an inclusive community for all of UCSD
-                        Chancellor's Scholars.
+                        Hi! My name is Grace and I am a third year student in 
+                        Marshall collage. I am a pharm chem major and plan on 
+                        going to pharmacy school after I graduate. In my free 
+                        time I love to go to the beach, try new coffee shops, 
+                        and binge watch TV shows. I am so excited to serve as 
+                        this year's CSA president and hope to put on a lot of 
+                        cool events and foster a great community of scholars!
                         </p>
                     </div>
                     </div>
