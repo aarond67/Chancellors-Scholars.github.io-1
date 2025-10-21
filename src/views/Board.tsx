@@ -60,6 +60,28 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
+                        src={boardHeadshots['annie_tran.jpeg']}
+                        loading="lazy"
+                        />
+                    </div>
+                    <h4>Annie Tran - Vice President</h4>
+                    <div className="board-desc">
+                        <p>
+                        Hi! I'm Annie, and I’m a third year studying human 
+                        biology. I joined this org because I love meeting new 
+                        people and helping plan events. Outside of school, I 
+                        enjoy baking, watching movies, and exploring San Diego.
+                        </p>
+                    </div>
+                    </div>
+                    </div>
+                    
+                    {/* Vice President */}
+                    <div className="col-sm-6 animated fadeInUp">
+                    <div className="board-image">
+                        <img
+                        alt="board picture"
+                        className="lazy"
                         src={boardHeadshots['Kristilynn Effie.jpg']}
                         loading="lazy"
                         />
@@ -87,17 +109,21 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Aryanna Ileto.jpeg']}
+                        src={boardHeadshots['Justin_Phan.jpeg']}
                         loading="lazy"
                         />
                     </div>
-                    <h4>Aryanna Ileto - Secretary</h4>
+                    <h4>Justin Phan - Secretary</h4>
                     <div className="board-desc">
                         <p>
-                        Hi my name is Aryanna! I’m currently a second year in Marshall
-                        college majoring in psychology with a minor in marketing. In my
-                        free time I love going to cafes with friends, watching romcoms,
-                        traveling, and learning new instruments.
+                        Hi I'm Justin! I'm a second year Marine Biology major at 
+                        Sixth College with plans to also major in Cognitive 
+                        Behavioral Neuroscience. In my free time I like playing 
+                        videogames, watching movies, going out with friends, and 
+                        I love going to artist alleys to collect things and spend 
+                        all my money. I also volunteer at the Birch Aquarium and 
+                        you'll usually find me at the tidepool plaza some time 
+                        every week!
                         </p>
                     </div>
                     </div>
@@ -154,15 +180,16 @@ function Board() {
                         loading="lazy"
                         />
                     </div>
-                    <h4>Emily Park - Peer Mentor Chair</h4>
+                    <h4>Phuong Nguyen - Peer Mentor Chair</h4>
                     <div className="board-desc">
                         <p>
-                        Hi! My name is Emily Park and I'm a third-year student at UCSD.
-                        I'm majoring in computer science and I'm in Revelle College. In my
-                        free time, I enjoy hiking, swimming, and cooking. I'm really
-                        excited to serve as a Peer Mentoring Chair this year, and I look
-                        forward to having the opportunity to support the first-year cohort
-                        in their transition into UCSD.
+                        Hey, I'm Phuong! I'm a 3rd year, Human bio major at 
+                        Eighth college. I love everything anatomy and am pre-PT!
+                         This is my second year on board for CSA and I've seen 
+                         so much growth within the org since - this year, I'm 
+                         hoping we can make it an even better and more engaging 
+                         community :) Fun fact, I grew up in the Bay Area and 
+                         have a dog at home!
                         </p>
                     </div>
                     </div>
@@ -177,13 +204,13 @@ function Board() {
                         loading="lazy"
                         />
                     </div>
-                    <h4>Jervic Aquino - Peer Mentor Chair</h4>
+                    <h4>Jason Dinh - Peer Mentor Chair</h4>
                     <div className="board-desc">
                         <p>
-                        Hi guys! I'm Jervic, a second-year Revelle student majoring in
-                        General Biology. I'm interested in forensics and I hope to
-                        eventually work in that field. In my free time, I like to watch
-                        shows on Netflix and go on walks while listening to music.
+                        Hey, my name is Jason and I am an 2nd year at Warren 
+                        College. I am majoring Business Economics and plan on 
+                        minoring in accounting. I am here to make the best of 
+                        my experience at UCSD. 
                         </p>
                     </div>
                     </div>
@@ -198,14 +225,15 @@ function Board() {
                         loading="lazy"
                         />
                     </div>
-                    <h4>Reynelle Leila Aricheta - Social Chair</h4>
+                    <h4>Alondra Gutierrez - Social Chair</h4>
                     <div className="board-desc">
                         <p>
-                        Hello everyone! I’m Reynelle Leila Aricheta, and my pronouns are
-                        she/hers. I’m a third year majoring in Ecology, Behavior, and
-                        Evolution with a minor in Environmental Studies in Revelle
-                        College! In my free time, I enjoy cafe hopping, concerts, and
-                        dance.
+                        Hi, I’m Alondra! I’m a second-year Pharmacological 
+                        Chemistry major at UCSD and I’m excited to serve as 
+                        CSA’s Social Co-Chair. In my free time, I enjoy 
+                        volunteering, exploring San Diego, and spending time 
+                        with friends. I can’t wait to help make this year full 
+                        of great memories for everyone!
                         </p>
                     </div>
                     </div>
@@ -322,16 +350,22 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Phuong Nguyen.jpeg']}
+                        src={boardHeadshots['Karen_Lorenzo_Villegas.jpeg']}
                         loading="lazy"
                         />
                     </div>
-                    <h4>Phuong Nguyen - Publicity Chair</h4>
+                    <h4>Karen Lorenzo - Publicity Chair</h4>
                     <div className="board-desc">
                         <p>
-                        Hi, my name is Phuong! I’m a second-year at Eighth College
-                        majoring in Human Biology. I love going on spontaneous adventures
-                        with my dog, my family, and my friends!
+                        Hi my name is karen! I’m a second year CSP/CSA scholar 
+                        and i’m really looking forward to meeting everyone! I’m 
+                        from San Diego/Murrieta and I love to go get coffee and 
+                        study ✨  I love listening to english rnb/pop music but 
+                        also spanish pop/bachata! I plan to one day pursue a 
+                        career in Speech Language Pathology/Audiology! Outside 
+                        of academics, I have an on-campus job but still make 
+                        time to go to the beach, museums, and amusement parks on 
+                        weekends. 
                         </p>
                     </div>
                     </div>
@@ -346,20 +380,15 @@ function Board() {
                         loading="lazy"
                         />
                     </div>
-                    <h4>Maria Habashy - Publicity Chair</h4>
+                    <h4>Hillary Chen - Publicity Chair</h4>
                     <div className="board-desc">
                         <p>
-                        Hello everyone, my name is Maria Habashy. I am a Speculative
-                        Design major and Urban Studies and Planning minor in Sixth
-                        college. I joined the CSA Board because I was eager to learn and
-                        have fun, values that align perfectly with the principles upheld
-                        by the CSA. Currently, I serve as one of the Publicity Chairs,
-                        where I get to channel my interest for design into crafting
-                        engaging and effective promotional posts and materials for the CSA
-                        Board. I thrive in taking ideas and feedback and turning it into
-                        interactive content and materials for publicity. My role allows me
-                        to merge creativity with practicality, and I am committed to
-                        bringing our events, plans, and visions to life!
+                        Hii!! I’m Hillary. I was born and raised in Sacramento, 
+                        CA. Im a huge pet lover and I have a white Pomeranian of 
+                        my own!  My hobbies are drawing, games, and experiencing 
+                        different restaurants with my friends 
+                        (I’m a huge foodie.) If I’m not doing classwork, I’m 
+                        making artwork or working in a lab!
                         </p>
                     </div>
                     </div>
@@ -374,13 +403,15 @@ function Board() {
                         loading="lazy"
                         />
                     </div>
-                    <h4>Felicia Gallardo - Director-At-Large</h4>
+                    <h4>Jervic Aquino - Director-At-Large</h4>
                     <div className="board-desc">
                         <p>
-                        Hello!! My name is Felicia Gallardo, I am a second year majoring
-                        in Human Biology in Revelle College! I love exploring and going to
-                        Dodger games, and my favorite part of UCSD is the diversity of
-                        people that you have the chance to meet.
+                        Hi guys! I'm Jervic, a third-year Revelle student 
+                        majoring in General Biology and planning on minoring in 
+                        Bioethics. I'm interested in forensics and hoping to 
+                        eventually work for a government agency. In my free 
+                        time, I like to watch shows on Netflix and go on walks 
+                        while listening to music.
                         </p>
                     </div>
                     </div>
@@ -551,7 +582,7 @@ function Board() {
                     </div>
                 </div>
             </div>
-        </div>
+        
     );
 }
 
