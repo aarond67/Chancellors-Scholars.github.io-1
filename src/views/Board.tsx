@@ -7,7 +7,7 @@
 // containing each image
 const images = import.meta.glob<{default: string}>(
     // Specify the path to headshots and add all relevant file extensions
-    '../img/board/2024-2025/*.{jpg,jpeg,JPG,png}', 
+    '../img/board/2025-2026/*.{jpg,jpeg,JPG,png}', 
     { eager: true }
   );
 
@@ -24,7 +24,7 @@ function Board() {
     return(
         <div>
             <div className="container csa-board text-center">
-                <h2>The CSA Board (2024 - 2025)</h2>
+                <h2>The CSA Board (2025 - 2026)</h2>
 
                 <div className="row">
                     <hr />
@@ -36,7 +36,7 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Keene Cheung.jpg']}
+                        src={boardHeadshots['Grace Carter.jpg']}
                         loading="lazy"
                         />
                     </div>
@@ -60,7 +60,7 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['annie_tran.jpeg']}
+                        src={boardHeadshots['Annie Tran.jpeg']}
                         loading="lazy"
                         />
                     </div>
@@ -82,22 +82,14 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Kristilynn Effie.jpg']}
+                        src={boardHeadshots['Annie Tran.jpg']}
                         loading="lazy"
                         />
                     </div>
-                    <h4>Kristilynn Effie - Vice President</h4>
+                    <h4>Annie Tran - Vice President Internal</h4>
                     <div className="board-desc">
                         <p>
-                        My name is KristiLynn Effie, and I am a junior in Sixth college
-                        studying Visual Arts-Studio with a minor in Art History and
-                        Criticism. Hence my major, in my free time you can find me
-                        painting or illustrating – however I also love spending time with
-                        family and friends, and catching up over coffee. My professional
-                        journey includes roles as a Student Assistant at UCSD's Retirement
-                        Resource Center, and Social Media Coordinator alongside serving as
-                        this year’s Vice President of the CSA; a title I hold with great
-                        pride.
+                        Hi! I'm Annie, and I’m a third year studying human biology. I joined this org because I love meeting new people and helping plan events. Outside of school, I enjoy baking, watching movies, and exploring San Diego.
                         </p>
                     </div>
                     </div>
@@ -109,7 +101,7 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Justin_Phan.jpeg']}
+                        src={boardHeadshots['Justin Phan.jpeg']}
                         loading="lazy"
                         />
                     </div>
@@ -128,7 +120,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Treasurer */}
+                    {/* Treasurer */}{/* <!-- needs updating -->*/}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -149,7 +141,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Treasurer */}
+                    {/* Treasurer */}{/*<!-- needs updating -->*/}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -170,13 +162,13 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Peer Mentor Chair */}
+                    {/* Peer Mentor Chair */}{/* Needs Phuong Nguyen headshots */}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Emily Park.jpg']}
+                        src={boardHeadshots['Phuong Nguyen.jpg']}
                         loading="lazy"
                         />
                     </div>
@@ -194,13 +186,13 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Peer Mentor Chair */}
+                    {/* Peer Mentor Chair */}{/* Needs Jason's headshots */}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Jervic Aquino.jpg']}
+                        src={boardHeadshots['Jason Dinh.jpg']}
                         loading="lazy"
                         />
                     </div>
@@ -215,13 +207,13 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Social Chair */}
+                    {/* Social Chair */} {/* Needs Alondra's Headshots */}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Reynelle Aricheta.jpeg']}
+                        src={boardHeadshots['Alondra Gutierrez.jpeg']}
                         loading="lazy"
                         />
                     </div>
@@ -244,17 +236,14 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Andrew Doan.jpg']}
+                        src={boardHeadshots['Jocelyn Serrano-Gutierrez.jpg']}
                         loading="lazy"
                         />
                     </div>
-                    <h4>Andrew Doan - Social Chair</h4>
+                    <h4>Jocelyn Serrano - Social Chair</h4>
                     <div className="board-desc">
                         <p>
-                        Hi Everyone! My name is Andrew Doan and I am currently studying
-                        Math-CS as a 2nd year in Eighth College. I typically play video
-                        games, play sports, or watch shows in my free time but I am always
-                        willing to try new things. Feel free to reach out!
+                        My name is Jocelyn Serrano I am a second year student from Muir College. I love going on coffee runs, shopping with friends, and meeting new people! I am excited to work with all of you!
                         </p>
                     </div>
                     </div>
@@ -265,28 +254,25 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Desiree Menjivar.jpg']}
+                        src={boardHeadshots['Berleen Grewal.jpg']}
                         loading="lazy"
                         />
                     </div>
-                    <h4>Desiree Menjivar - Volunteer Chair</h4>
+                    <h4>Berleen Grewal - Volunteer Chair</h4>
                     <div className="board-desc">
                         <p>
-                        Hello! My name is Desiree and I am a third-year from Revelle
-                        College. I am currently majoring in Marine Biology and planning to
-                        minor in General Biology. I enjoy walking along the beach, baking,
-                        writing, and going thrift shopping.
+                        I like to crochet, try new foods, and discover new places! Excited to create initiatives encouraging CSA students to contribute their time to local efforts. 
                         </p>
                     </div>
                     </div>
 
-                    {/* Volunteer Chair */}
+                    {/* Volunteer Chair */} {/*Needs updating */}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Annie Tran.jpeg']}
+                        src={boardHeadshots['Annie-Tran.jpeg']}
                         loading="lazy"
                         />
                     </div>
@@ -300,7 +286,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Webmaster */}
+                    {/* Webmaster */} {/*Needs updating*/}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -320,7 +306,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Webmaster */}
+                    {/* Webmaster */} {/*Needs updating*/}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -350,7 +336,7 @@ function Board() {
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Karen_Lorenzo_Villegas.jpeg']}
+                        src={boardHeadshots['Karen Lorenzo Villegas.jpeg']}
                         loading="lazy"
                         />
                     </div>
@@ -370,13 +356,13 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Publicity Chair */}
+                    {/* Publicity Chair */} {/*Needs headshot updating*/}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Maria Habashy.jpeg']}
+                        src={boardHeadshots['Hillary Chen.jpeg']}
                         loading="lazy"
                         />
                     </div>
@@ -393,13 +379,13 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Director-At-Large */}
+                    {/* Director-At-Large */} {/*Needs headshot updating */}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
                         alt="board picture"
                         className="lazy"
-                        src={boardHeadshots['Felicia Gallardo.jpeg']}
+                        src={boardHeadshots['Jervic Aquino.jpeg']}
                         loading="lazy"
                         />
                     </div>
@@ -416,7 +402,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Director-At-Large */}
+                    {/* Director-At-Large */} {/*Needs updating */}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -437,7 +423,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Director-At-Large */}
+                    {/* Director-At-Large */}{/*Needs updating */}
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -500,7 +486,8 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Board Intern */}
+                    {/*No longer Needed
+                    {/* Board Intern 
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -521,7 +508,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Board Intern */}
+                    {/* Board Intern 
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -540,7 +527,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Board Intern */}
+                    {/* Board Intern 
                     <div className="col-sm-6 animated fadeInUp">
                     <div className="board-image">
                         <img
@@ -561,7 +548,7 @@ function Board() {
                     </div>
                     </div>
 
-                    {/* Board Intern */}
+                    {/* Board Intern 
                     <div className="col-sm-6 animated fadeInUp">
                         <div className="board-image">
                             <img
@@ -580,6 +567,7 @@ function Board() {
                             </p>
                         </div>
                     </div>
+                    */}
                 </div>
             </div>
         
