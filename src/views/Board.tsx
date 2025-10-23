@@ -24,267 +24,258 @@ function Board() {
     return(
         <div>
             <div className="container csa-board text-center">
-                <h2>The CSA Board (2025 - 2026)</h2>
-
                 <div className="row">
+                    <h2>The CSA Board (2025 - 2026)</h2>
+                </div>
+                
                     <hr />
                     
                     {/* President */}
                     <div className="row">
-                    <div className="col-sm-6 animated fadeInUp csa-delay-2">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Grace Carter.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Grace Carter - President</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hi! My name is Grace and I am a third year student in 
-                        Marshall collage. I am a pharm chem major and plan on 
-                        going to pharmacy school after I graduate. In my free 
-                        time I love to go to the beach, try new coffee shops, 
-                        and binge watch TV shows. I am so excited to serve as 
-                        this year's CSA president and hope to put on a lot of 
-                        cool events and foster a great community of scholars!
-                        </p>
-                    </div>
-                    </div>
+                        <div className="col-sm-6 animated fadeInUp ">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Grace Carter.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Grace Carter - President</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hi! My name is Grace and I am a third year student in 
+                                Marshall collage. I am a pharm chem major and plan on 
+                                going to pharmacy school after I graduate. In my free 
+                                time I love to go to the beach, try new coffee shops, 
+                                and binge watch TV shows. I am so excited to serve as 
+                                this year's CSA president and hope to put on a lot of 
+                                cool events and foster a great community of scholars!
+                                </p>
+                            </div>
+                        </div>
 
-                    {/* Vice President */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Annie Tran.jpeg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Annie Tran - Vice President</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hi! I'm Annie, and I’m a third year studying human 
-                        biology. I joined this org because I love meeting new 
-                        people and helping plan events. Outside of school, I 
-                        enjoy baking, watching movies, and exploring San Diego.
-                        </p>
-                    </div>
-                    </div>
+                        {/* Vice President */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Annie Tran.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Annie Tran - Vice President</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hi! I'm Annie, and I’m a third year studying human 
+                                biology. I joined this org because I love meeting new 
+                                people and helping plan events. Outside of school, I 
+                                enjoy baking, watching movies, and exploring San Diego.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     
-                    {/* Vice President */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Annie Tran.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Annie Tran - Vice President Internal</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hi! I'm Annie, and I’m a third year studying human biology. I joined this org because I love meeting new people and helping plan events. Outside of school, I enjoy baking, watching movies, and exploring San Diego.
-                        </p>
-                    </div>
-                    </div>
+                    
+                    <div className="row">
+                        {/* Secretary */}
+                        <div className="col-sm-6 animated fadeInUp ">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Justin Phan.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Justin Phan - Secretary</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hi I'm Justin! I'm a second year Marine Biology major at 
+                                Sixth College with plans to also major in Cognitive 
+                                Behavioral Neuroscience. In my free time I like playing 
+                                videogames, watching movies, going out with friends, and 
+                                I love going to artist alleys to collect things and spend 
+                                all my money. I also volunteer at the Birch Aquarium and 
+                                you'll usually find me at the tidepool plaza some time 
+                                every week!
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Treasurer */}{/* <!-- needs updating -->*/}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Grace Carter.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Grace Carter - Treasurer</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hello! My name is Grace Carter and I am a second year chemistry
+                                major in Marshall college. I plan to go to pharmacy school after
+                                undergrad. In my free time I love to dance, go to the beach, sew,
+                                and spend time with friends.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    {/* Secretary */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Justin Phan.jpeg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Justin Phan - Secretary</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hi I'm Justin! I'm a second year Marine Biology major at 
-                        Sixth College with plans to also major in Cognitive 
-                        Behavioral Neuroscience. In my free time I like playing 
-                        videogames, watching movies, going out with friends, and 
-                        I love going to artist alleys to collect things and spend 
-                        all my money. I also volunteer at the Birch Aquarium and 
-                        you'll usually find me at the tidepool plaza some time 
-                        every week!
-                        </p>
-                    </div>
+                    <div className="row">
+                        {/* Treasurer */}{/*<!-- needs updating -->*/}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Sirajam Munira.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Sirajam Munira - Treasurer</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hello! My name is Sirajam Munira. I am a second-year Marshall
+                                student, majoring in International Studies - International
+                                Business. Fun fact about me: I love to play tennis and am a
+                                perfectionist :)
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Peer Mentor Chair */}{/* Needs Phuong Nguyen headshots */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Phuong Nguyen.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Phuong Nguyen - Peer Mentor Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hey, I'm Phuong! I'm a 3rd year, Human bio major at 
+                                Eighth college. I love everything anatomy and am pre-PT!
+                                This is my second year on board for CSA and I've seen 
+                                so much growth within the org since - this year, I'm 
+                                hoping we can make it an even better and more engaging 
+                                community :) Fun fact, I grew up in the Bay Area and 
+                                have a dog at home!
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    {/* Treasurer */}{/* <!-- needs updating -->*/}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Grace Carter.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Grace Carter - Treasurer</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hello! My name is Grace Carter and I am a second year chemistry
-                        major in Marshall college. I plan to go to pharmacy school after
-                        undergrad. In my free time I love to dance, go to the beach, sew,
-                        and spend time with friends.
-                        </p>
-                    </div>
+                    <div className="row">
+                        {/* Peer Mentor Chair */}{/* Needs Jason's headshots */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Jason Dinh.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Jason Dinh - Peer Mentor Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hey, my name is Jason and I am an 2nd year at Warren 
+                                College. I am majoring Business Economics and plan on 
+                                minoring in accounting. I am here to make the best of 
+                                my experience at UCSD. 
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Social Chair */} {/* Needs Alondra's Headshots */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Alondra Gutierrez.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Alondra Gutierrez - Social Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hi, I’m Alondra! I’m a second-year Pharmacological 
+                                Chemistry major at UCSD and I’m excited to serve as 
+                                CSA’s Social Co-Chair. In my free time, I enjoy 
+                                volunteering, exploring San Diego, and spending time 
+                                with friends. I can’t wait to help make this year full 
+                                of great memories for everyone!
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    {/* Treasurer */}{/*<!-- needs updating -->*/}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Sirajam Munira.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Sirajam Munira - Treasurer</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hello! My name is Sirajam Munira. I am a second-year Marshall
-                        student, majoring in International Studies - International
-                        Business. Fun fact about me: I love to play tennis and am a
-                        perfectionist :)
-                        </p>
-                    </div>
-                    </div>
+                    <div className="row">
+                        {/* Social Chair */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Jocelyn Serrano-Gutierrez.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Jocelyn Serrano - Social Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                My name is Jocelyn Serrano I am a second year student from Muir College. I love going on coffee runs, shopping with friends, and meeting new people! I am excited to work with all of you!
+                                </p>
+                            </div>
+                        </div>
 
-                    {/* Peer Mentor Chair */}{/* Needs Phuong Nguyen headshots */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Phuong Nguyen.jpg']}
-                        loading="lazy"
-                        />
+                        {/* Volunteer Chair */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Berleen Grewal.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Berleen Grewal - Volunteer Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                I like to crochet, try new foods, and discover new places! Excited to create initiatives encouraging CSA students to contribute their time to local efforts. 
+                                </p>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <h4>Phuong Nguyen - Peer Mentor Chair</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hey, I'm Phuong! I'm a 3rd year, Human bio major at 
-                        Eighth college. I love everything anatomy and am pre-PT!
-                         This is my second year on board for CSA and I've seen 
-                         so much growth within the org since - this year, I'm 
-                         hoping we can make it an even better and more engaging 
-                         community :) Fun fact, I grew up in the Bay Area and 
-                         have a dog at home!
-                        </p>
-                    </div>
-                    </div>
-
-                    {/* Peer Mentor Chair */}{/* Needs Jason's headshots */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Jason Dinh.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Jason Dinh - Peer Mentor Chair</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hey, my name is Jason and I am an 2nd year at Warren 
-                        College. I am majoring Business Economics and plan on 
-                        minoring in accounting. I am here to make the best of 
-                        my experience at UCSD. 
-                        </p>
-                    </div>
-                    </div>
-
-                    {/* Social Chair */} {/* Needs Alondra's Headshots */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Alondra Gutierrez.jpeg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Alondra Gutierrez - Social Chair</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hi, I’m Alondra! I’m a second-year Pharmacological 
-                        Chemistry major at UCSD and I’m excited to serve as 
-                        CSA’s Social Co-Chair. In my free time, I enjoy 
-                        volunteering, exploring San Diego, and spending time 
-                        with friends. I can’t wait to help make this year full 
-                        of great memories for everyone!
-                        </p>
-                    </div>
-                    </div>
-
-                    {/* Social Chair */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Jocelyn Serrano-Gutierrez.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Jocelyn Serrano - Social Chair</h4>
-                    <div className="board-desc">
-                        <p>
-                        My name is Jocelyn Serrano I am a second year student from Muir College. I love going on coffee runs, shopping with friends, and meeting new people! I am excited to work with all of you!
-                        </p>
-                    </div>
-                    </div>
-
-                    {/* Volunteer Chair */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Berleen Grewal.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Berleen Grewal - Volunteer Chair</h4>
-                    <div className="board-desc">
-                        <p>
-                        I like to crochet, try new foods, and discover new places! Excited to create initiatives encouraging CSA students to contribute their time to local efforts. 
-                        </p>
-                    </div>
-                    </div>
-
-                    {/* Volunteer Chair */} {/*Needs updating */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Annie-Tran.jpeg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Annie Tran - Volunteer Chair</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hello! My name is Annie, and I am a second-year Biochemistry major
-                        in Marshall College. I'm from San Diego, and I enjoy watching
-                        movies, collecting plants, and going out with friends and family.
-                        </p>
-                    </div>
-                    </div>
+                        {/* Volunteer Chair */} {/*Needs updating */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Annie-Tran.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Annie Tran - Volunteer Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hello! My name is Annie, and I am a second-year Biochemistry major
+                                in Marshall College. I'm from San Diego, and I enjoy watching
+                                movies, collecting plants, and going out with friends and family.
+                                </p>
+                            </div>
+                        </div>
 
                     {/* Webmaster */} {/*Needs updating*/}
                     <div className="col-sm-6 animated fadeInUp">
@@ -568,8 +559,10 @@ function Board() {
                         </div>
                     </div>
                     */}
-                </div>
+                    </div>
             </div>
+          
+        
         
     );
 }
