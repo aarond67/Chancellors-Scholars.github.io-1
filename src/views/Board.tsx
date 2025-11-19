@@ -85,17 +85,19 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Kristilynn Effie.jpg']}
+                                src={boardHeadshots['Aaron Delgado.jpg']}
                                 loading="lazy"
                                 />
                             </div>
                             <h4>Kristilynn Effie - Vice President</h4>
                             <div className="board-desc">
                                 <p>
-                                Hi! I'm Annie, and I’m a third year studying human 
-                                biology. I joined this org because I love meeting new 
-                                people and helping plan events. Outside of school, I 
-                                enjoy baking, watching movies, and exploring San Diego.
+                                Hi, I'm Aaron. I am a second year computer 
+                                engineering major from marshall college. I am 
+                                very excited to be your webmaster co-chair for 
+                                2025-2026. I love trying out new coffee shops 
+                                and recipes. I have a hobby of trying out new 
+                                baking recipes to make for friends. 
                                 </p>
                             </div>
                         </div>
@@ -133,17 +135,19 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Aryanna Ileto.jpg']}
+                                src={boardHeadshots['Aaron Delgado.jpg']}
                                 loading="lazy"
                                 />
                             </div>
                             <h4>Aryanna Ileto - Treasurer</h4>
                             <div className="board-desc">
                                 <p>
-                                Hello! My name is Grace Carter and I am a second year chemistry
-                                major in Marshall college. I plan to go to pharmacy school after
-                                undergrad. In my free time I love to dance, go to the beach, sew,
-                                and spend time with friends.
+                               Hi, I'm Aaron. I am a second year computer 
+                                engineering major from marshall college. I am 
+                                very excited to be your webmaster co-chair for 
+                                2025-2026. I love trying out new coffee shops 
+                                and recipes. I have a hobby of trying out new 
+                                baking recipes to make for friends. 
                                 </p>
                             </div>
                         </div>
@@ -153,7 +157,7 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Sirajam Munira.jpg']}
+                                src={boardHeadshots['Aaron Delgado.jpg']}
                                 loading="lazy"
                                 />
                             </div>
@@ -197,16 +201,19 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Layth Polus.jpeg']}
+                                src={boardHeadshots['Aaron Delgado.jpg']}
                                 loading="lazy"
                                 />
                             </div>
                             <h4>Layth Polus - Volunteer Chair</h4>
                             <div className="board-desc">
                                 <p>
-                                Hello! My name is Annie, and I am a second-year Biochemistry major
-                                in Marshall College. I'm from San Diego, and I enjoy watching
-                                movies, collecting plants, and going out with friends and family.
+                                Hi, I'm Aaron. I am a second year computer 
+                                engineering major from marshall college. I am 
+                                very excited to be your webmaster co-chair for 
+                                2025-2026. I love trying out new coffee shops 
+                                and recipes. I have a hobby of trying out new 
+                                baking recipes to make for friends. 
                                 </p>
                             </div>
                         </div>
@@ -269,7 +276,7 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Jonathan Mendoza.jpg']}
+                                src={boardHeadshots['Jonathan Mendoza.jpeg']}
                                 loading="lazy"
                                 />
                             </div>
@@ -361,14 +368,19 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Kaitlyn.jpg']}
+                                src={boardHeadshots['Aaron Delgado.jpg']}
                                 loading="lazy"
                                 />
                             </div>
                             <h4>Kaitlyn - Social Chair</h4>
                             <div className="board-desc">
                                 <p>
-                                
+                                Hi, I'm Aaron. I am a second year computer 
+                                engineering major from marshall college. I am 
+                                very excited to be your webmaster co-chair for 
+                                2025-2026. I love trying out new coffee shops 
+                                and recipes. I have a hobby of trying out new 
+                                baking recipes to make for friends. 
                                 </p>
                             </div>
                         </div>
@@ -399,7 +411,7 @@ function Board() {
                             </div>
                     </div>
 
-                    {/*Needs Hillary's Headshot and Needs Maria's everything */}
+                    {/*Needs Maria's everything */}
                     <div className="row">
                         {/* Publicity Chair */} {/*Needs headshot updating*/}
                         <div className="col-sm-6 animated fadeInUp">
@@ -407,7 +419,7 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Hillary Chen.jpeg']}
+                                src={boardHeadshots['Hillary.jpg']}
                                 loading="lazy"
                                 />
                             </div>
@@ -429,25 +441,25 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Maria Habashy.jpeg']}
+                                src={boardHeadshots['Aaron Delgado.jpg']}
                                 loading="lazy"
                                 />
                             </div>
                             <h4>Maria Habashy - Publicity Chair</h4>
                             <div className="board-desc">
                                 <p>
-                                Hii!! I’m Hillary. I was born and raised in Sacramento, 
-                                CA. Im a huge pet lover and I have a white Pomeranian of 
-                                my own!  My hobbies are drawing, games, and experiencing 
-                                different restaurants with my friends 
-                                (I’m a huge foodie.) If I’m not doing classwork, I’m 
-                                making artwork or working in a lab!
+                                Hi, I'm Aaron. I am a second year computer 
+                                engineering major from marshall college. I am 
+                                very excited to be your webmaster co-chair for 
+                                2025-2026. I love trying out new coffee shops 
+                                and recipes. I have a hobby of trying out new 
+                                baking recipes to make for friends. 
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    {/*Needs Everything Web */}
+                    {/*Done*/}
                     <div className="row">
                         {/* Webmaster */} {/*Needs updating*/}
                         <div className="col-sm-6 animated fadeInUp">
@@ -462,9 +474,12 @@ function Board() {
                             <h4>Aaron Delgado - Webmaster</h4>
                             <div className="board-desc">
                                 <p>
-                                Hi, I'm Carlos, a third year Math-CS major from Sixth college, and
-                                I joined CSA in order to contribute to fun events and to create a
-                                more close-knit community.
+                                Hi, I'm Aaron. I am a second year computer 
+                                engineering major from marshall college. I am 
+                                very excited to be your webmaster co-chair for 
+                                2025-2026. I love trying out new coffee shops 
+                                and recipes. I have a hobby of trying out new 
+                                baking recipes to make for friends. 
                                 </p>
                             </div>
                         </div>
@@ -474,20 +489,17 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Tiger.jpg']}
+                                src={boardHeadshots['Tiger Liang.jpg']}
                                 loading="lazy"
                                 />
                             </div>
-                            <h4>Tiger - Webmaster</h4>
+                            <h4>Tiger Liang - Webmaster</h4>
                             <div className="board-desc">
                                 <p>
-                                Hi guys! I'm Foster and I'm a third-year Computer Engineering
-                                major in Sixth College. Outside of school I play an unhealthy
-                                amount of Deep Rock Galactic and (try to) go to the gym. I also
-                                like listening to older Chinese music and am currently trying to
-                                enhance my Cantonese speaking abilities. As webmaster, I'm always
-                                looking to improve the website so feel free to email me (or
-                                Carlos) if you have any ideas or concerns!
+                                Hello, my name is Tiger. I am a second year electrical 
+                                engineering major from seventh college. Looking forward 
+                                to help creating the ideal experience for any incoming 
+                                Chancellor Scholars students.
                                 </p>
                             </div>
                         </div> 
@@ -545,7 +557,7 @@ function Board() {
                         </div>
                     </div>
 
-                    {/*Needs All of Freshman Ambassador*/}
+                    {/*Needs Sharons Description and Ashley's Everything*/}
                     <div className="row">
                         {/* Freshman Ambassador */}
                         <div className="col-sm-6 animated fadeInUp">
@@ -553,16 +565,19 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Ashley Nguyen.jpeg']}
+                                src={boardHeadshots['Aaron Delgado.jpg']}
                                 loading="lazy"
                                 />
                             </div>
                             <h4>Ashley Nguyen - Freshman Ambassador</h4>
                             <div className="board-desc">
                                 <p>
-                                Hello! My name is Leyna, and I am a first year Revelle student
-                                majoring in Biochemistry. I enjoy going outside, traveling and
-                                volunteering whenever I can!
+                                Hi, I'm Aaron. I am a second year computer 
+                                engineering major from marshall college. I am 
+                                very excited to be your webmaster co-chair for 
+                                2025-2026. I love trying out new coffee shops 
+                                and recipes. I have a hobby of trying out new 
+                                baking recipes to make for friends. 
                                 </p>
                             </div>
                         </div>
@@ -573,17 +588,19 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Sharon.png']}
+                                src={boardHeadshots['Sharon Li.jpeg']}
                                 loading="lazy"
                                 />
                             </div>
-                            <h4>Sharon - Freshman Ambassador</h4>
+                            <h4>Sharon Li - Freshman Ambassador</h4>
                             <div className="board-desc">
                                 <p>
-                                Nice to meet you! I’m Leo, a first-year bioengineering undergrad
-                                assigned to and living in Eighth college, specifically Sankofa. I
-                                love slurpees, tacos, and more importantly animals! It’s a
-                                pleasure to be at UCSD, and I’m very excited to see everyone!
+                                Hi, I'm Aaron. I am a second year computer 
+                                engineering major from marshall college. I am 
+                                very excited to be your webmaster co-chair for 
+                                2025-2026. I love trying out new coffee shops 
+                                and recipes. I have a hobby of trying out new 
+                                baking recipes to make for friends. 
                                 </p>
                             </div>
                         </div>
