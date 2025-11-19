@@ -122,7 +122,7 @@ function Homepage() {
             )}
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   );
 }

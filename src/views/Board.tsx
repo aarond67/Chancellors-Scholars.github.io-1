@@ -30,7 +30,7 @@ function Board() {
                 
                     <hr />
                     
-                    
+                    {/*Done*/}
                     <div className="row">
                         {/* President */}
                         <div className="col-sm-6 animated fadeInUp ">
@@ -55,7 +55,6 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-
                         {/* Vice President */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -77,6 +76,8 @@ function Board() {
                             </div>
                         </div>
                     </div>
+
+                    {/*Needs Kristilynn Headshot and Description*/}
                     <div className="row">
                         {/* Vice President */}
                         <div className="col-sm-6 animated fadeInUp">
@@ -88,7 +89,7 @@ function Board() {
                                 loading="lazy"
                                 />
                             </div>
-                            <h4>Annie Tran - Vice President</h4>
+                            <h4>Kristilynn Effie - Vice President</h4>
                             <div className="board-desc">
                                 <p>
                                 Hi! I'm Annie, and I’m a third year studying human 
@@ -122,9 +123,9 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-
-                        
                     </div>
+
+                    {/*Needs Aryanna's and Sirajam's stuff all of it */}
                     <div className="row">
                         {/* Treasurer */}{/* <!-- needs updating -->*/}
                         <div className="col-sm-6 animated fadeInUp">
@@ -132,7 +133,7 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Grace Carter.jpg']}
+                                src={boardHeadshots['Aryanna Ileto.jpg']}
                                 loading="lazy"
                                 />
                             </div>
@@ -167,22 +168,26 @@ function Board() {
                             </div>
                         </div>
                     </div>
+
+                    {/*Needs All of Layth's stuff */}
                     <div className="row">
-                       
                         {/* Volunteer Chair */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Berleen Grewal.jpg']}
+                                src={boardHeadshots['Berleen Grewal.png']}
                                 loading="lazy"
                                 />
                             </div>
                             <h4>Berleen Grewal - Volunteer Chair</h4>
                             <div className="board-desc">
                                 <p>
-                                I like to crochet, try new foods, and discover new places! Excited to create initiatives encouraging CSA students to contribute their time to local efforts. 
+                                I like to crochet, try new foods, and discover 
+                                new places! Excited to create initiatives 
+                                encouraging CSA students to contribute their 
+                                time to local efforts. 
                                 </p>
                             </div>
                         </div>
@@ -192,11 +197,11 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Annie-Tran.jpeg']}
+                                src={boardHeadshots['Layth Polus.jpeg']}
                                 loading="lazy"
                                 />
                             </div>
-                            <h4>Annie Tran - Volunteer Chair</h4>
+                            <h4>Layth Polus - Volunteer Chair</h4>
                             <div className="board-desc">
                                 <p>
                                 Hello! My name is Annie, and I am a second-year Biochemistry major
@@ -206,53 +211,16 @@ function Board() {
                             </div>
                         </div>
                     </div>
+
+                    {/*Done*/}
                     <div className="row">
-                       
-                        {/* Volunteer Chair */}
+                        {/* Peer Mentor Chair */}{/* Needs Phuong Nguyen headshots */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Berleen Grewal.jpg']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Berleen Grewal - Volunteer Chair</h4>
-                            <div className="board-desc">
-                                <p>
-                                I like to crochet, try new foods, and discover new places! Excited to create initiatives encouraging CSA students to contribute their time to local efforts. 
-                                </p>
-                            </div>
-                        </div>
-                        {/* Volunteer Chair */} {/*Needs updating */}
-                        <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Annie-Tran.jpeg']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Annie Tran - Volunteer Chair</h4>
-                            <div className="board-desc">
-                                <p>
-                                Hello! My name is Annie, and I am a second-year Biochemistry major
-                                in Marshall College. I'm from San Diego, and I enjoy watching
-                                movies, collecting plants, and going out with friends and family.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        {/* Fundraising */}{/* Needs Phuong Nguyen headshots */}
-                        <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Phuong Nguyen.jpg']}
+                                src={boardHeadshots['Phuong Nguyen.jpeg']}
                                 loading="lazy"
                                 />
                             </div>
@@ -275,7 +243,7 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Jason Dinh.jpg']}
+                                src={boardHeadshots['Jason Dinh.jpeg']}
                                 loading="lazy"
                                 />
                             </div>
@@ -292,14 +260,62 @@ function Board() {
 
                         
                     </div>
-                    <div className = "row">
-{/* Social Chair */} {/* Needs Alondra's Headshots */}
+
+                    {/*Done*/}
+                    <div className="row">
+                        {/* Fundraising Chair */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Alondra Gutierrez.jpeg']}
+                                src={boardHeadshots['Jonathan Mendoza.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Jonathan Mendoza - Fundraising Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                I’m a Warren College student, looking to be a 
+                                Software Engineer or take some sort of teaching 
+                                position. I love playing soccer, swimming, 
+                                listening to music specifically pop and rock, 
+                                and playing video games. 
+                                </p>
+                            </div>
+                        </div>
+                        {/* Fundraising Chair */} 
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Tammy Bao.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Tammy Bao - Fundraising Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hi, I'm Tammy, one of the Fundraising Chairs for 
+                                CSA! I'm from the Bay Area, and I love 
+                                collecting trinkets, going hiking, and 
+                                journaling. I also really enjoy cafe hopping to 
+                                find new places to study in San Diego.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {/*Done*/}
+                    <div className = "row">
+                        {/* Social Chair */} 
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Alondra Gutierrez.jpg']}
                                 loading="lazy"
                                 />
                             </div>
@@ -328,11 +344,16 @@ function Board() {
                             <h4>Jocelyn Serrano - Social Chair</h4>
                             <div className="board-desc">
                                 <p>
-                                My name is Jocelyn Serrano I am a second year student from Muir College. I love going on coffee runs, shopping with friends, and meeting new people! I am excited to work with all of you!
+                                My name is Jocelyn Serrano I am a second year 
+                                student from Muir College. I love going on 
+                                coffee runs, shopping with friends, and meeting 
+                                new people! I am excited to work with all of you!
                                 </p>
                             </div>
                         </div>
                     </div>
+
+                    {/*Needs Kaitlyn everything */}
                     <div className="row">
                         {/* Social Chair */}
                         <div className="col-sm-6 animated fadeInUp">
@@ -340,14 +361,14 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Jocelyn Serrano-Gutierrez.jpg']}
+                                src={boardHeadshots['Kaitlyn.jpg']}
                                 loading="lazy"
                                 />
                             </div>
-                            <h4>Jocelyn Serrano - Social Chair</h4>
+                            <h4>Kaitlyn - Social Chair</h4>
                             <div className="board-desc">
                                 <p>
-                                My name is Jocelyn Serrano I am a second year student from Muir College. I love going on coffee runs, shopping with friends, and meeting new people! I am excited to work with all of you!
+                                
                                 </p>
                             </div>
                         </div>
@@ -377,192 +398,196 @@ function Board() {
                                 </div>
                             </div>
                     </div>
+
+                    {/*Needs Hillary's Headshot and Needs Maria's everything */}
                     <div className="row">
-{/* Publicity Chair */} {/*Needs headshot updating*/}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Hillary Chen.jpeg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Hillary Chen - Publicity Chair</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hii!! I’m Hillary. I was born and raised in Sacramento, 
-                        CA. Im a huge pet lover and I have a white Pomeranian of 
-                        my own!  My hobbies are drawing, games, and experiencing 
-                        different restaurants with my friends 
-                        (I’m a huge foodie.) If I’m not doing classwork, I’m 
-                        making artwork or working in a lab!
-                        </p>
-                    </div>
-                    </div>
-{/* Publicity Chair */} {/*Needs headshot updating*/}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Hillary Chen.jpeg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Hillary Chen - Publicity Chair</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hii!! I’m Hillary. I was born and raised in Sacramento, 
-                        CA. Im a huge pet lover and I have a white Pomeranian of 
-                        my own!  My hobbies are drawing, games, and experiencing 
-                        different restaurants with my friends 
-                        (I’m a huge foodie.) If I’m not doing classwork, I’m 
-                        making artwork or working in a lab!
-                        </p>
-                    </div>
+                        {/* Publicity Chair */} {/*Needs headshot updating*/}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Hillary Chen.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Hillary Chen - Publicity Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hii!! I’m Hillary. I was born and raised in Sacramento, 
+                                CA. Im a huge pet lover and I have a white Pomeranian of 
+                                my own!  My hobbies are drawing, games, and experiencing 
+                                different restaurants with my friends 
+                                (I’m a huge foodie.) If I’m not doing classwork, I’m 
+                                making artwork or working in a lab!
+                                </p>
+                            </div>
+                        </div>
+                        {/* Publicity Chair */} {/*Needs headshot updating*/}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Maria Habashy.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Maria Habashy - Publicity Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hii!! I’m Hillary. I was born and raised in Sacramento, 
+                                CA. Im a huge pet lover and I have a white Pomeranian of 
+                                my own!  My hobbies are drawing, games, and experiencing 
+                                different restaurants with my friends 
+                                (I’m a huge foodie.) If I’m not doing classwork, I’m 
+                                making artwork or working in a lab!
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    </div>
+                    {/*Needs Everything Web */}
                     <div className="row">
- {/* Webmaster */} {/*Needs updating*/}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Carlos Gomez.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Carlos Gomez - Webmaster</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hi, I'm Carlos, a third year Math-CS major from Sixth college, and
-                        I joined CSA in order to contribute to fun events and to create a
-                        more close-knit community.
-                        </p>
-                    </div>
+                        {/* Webmaster */} {/*Needs updating*/}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Aaron Delgado.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Aaron Delgado - Webmaster</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hi, I'm Carlos, a third year Math-CS major from Sixth college, and
+                                I joined CSA in order to contribute to fun events and to create a
+                                more close-knit community.
+                                </p>
+                            </div>
+                        </div>
+                        {/* Webmaster */} {/*Needs updating*/}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Tiger.jpg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Tiger - Webmaster</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hi guys! I'm Foster and I'm a third-year Computer Engineering
+                                major in Sixth College. Outside of school I play an unhealthy
+                                amount of Deep Rock Galactic and (try to) go to the gym. I also
+                                like listening to older Chinese music and am currently trying to
+                                enhance my Cantonese speaking abilities. As webmaster, I'm always
+                                looking to improve the website so feel free to email me (or
+                                Carlos) if you have any ideas or concerns!
+                                </p>
+                            </div>
+                        </div> 
                     </div>
 
-                    {/* Webmaster */} {/*Needs updating*/}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Foster Dang.jpg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Foster Dang - Webmaster</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hi guys! I'm Foster and I'm a third-year Computer Engineering
-                        major in Sixth College. Outside of school I play an unhealthy
-                        amount of Deep Rock Galactic and (try to) go to the gym. I also
-                        like listening to older Chinese music and am currently trying to
-                        enhance my Cantonese speaking abilities. As webmaster, I'm always
-                        looking to improve the website so feel free to email me (or
-                        Carlos) if you have any ideas or concerns!
-                        </p>
-                    </div>
-                    </div>
-                     
-                    </div>
-                   
-                        
-                    
+                    {/*Done*/}
                     <div className="row">
-{/* Director-At-Large */} {/*Needs headshot updating */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Jervic Aquino.jpeg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Jervic Aquino - Director-At-Large</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hi guys! I'm Jervic, a third-year Revelle student 
-                        majoring in General Biology and planning on minoring in 
-                        Bioethics. I'm interested in forensics and hoping to 
-                        eventually work for a government agency. In my free 
-                        time, I like to watch shows on Netflix and go on walks 
-                        while listening to music.
-                        </p>
-                    </div>
+                        {/* Director-At-Large */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Jervic Aquino.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Jervic Aquino - Director-At-Large</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hi guys! I'm Jervic, a third-year Revelle student 
+                                majoring in General Biology and planning on minoring in 
+                                Bioethics. I'm interested in forensics and hoping to 
+                                eventually work for a government agency. In my free 
+                                time, I like to watch shows on Netflix and go on walks 
+                                while listening to music.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Director-At-Large */} {/*Needs updating */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Leyna Thai.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Leyna Thai - Director-At-Large</h4>
+                            <div className="board-desc">
+                                <p>
+                               Hi! My name is Leyna, and I'm a second-year 
+                               pre-med student in Revelle. In my free time, I 
+                               like to journal, travel, go to the gym, bake, 
+                               and shop. I also love hanging out with my friends 
+                               and eating out!! Indian and Chinese cuisine are 
+                               two of my absolute favorites. If I'm not doing 
+                               those things, I can be seen attempting a sport 
+                               (such as archery, ice skating, or indoor soccer) 
+                               or trying to lock in for the 5th time in a day.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    {/* Director-At-Large */} {/*Needs updating */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Annie Nguyen.jpeg']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Annie Nguyen - Director-At-Large</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hello, my name is Annie and I am a third year at Sixth College,
-                        double majoring in Political Science (Public Law) and Business
-                        Economics, with a minor in Accounting! In my free time, I love to
-                        try new foods and go shopping!
-                        </p>
-                    </div>
-                    </div>
-                    </div>
-                    
-                    
+                    {/*Needs All of Freshman Ambassador*/}
+                    <div className="row">
+                        {/* Freshman Ambassador */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Ashley Nguyen.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Ashley Nguyen - Freshman Ambassador</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hello! My name is Leyna, and I am a first year Revelle student
+                                majoring in Biochemistry. I enjoy going outside, traveling and
+                                volunteering whenever I can!
+                                </p>
+                            </div>
+                        </div>
 
-                   <div className="row">
-{/* Freshman Ambassador */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Leyna Thai.jpeg']}
-                        loading="lazy"
-                        />
+                        {/* Freshman Ambassador */}
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Sharon.png']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Sharon - Freshman Ambassador</h4>
+                            <div className="board-desc">
+                                <p>
+                                Nice to meet you! I’m Leo, a first-year bioengineering undergrad
+                                assigned to and living in Eighth college, specifically Sankofa. I
+                                love slurpees, tacos, and more importantly animals! It’s a
+                                pleasure to be at UCSD, and I’m very excited to see everyone!
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <h4>Leyna Thai - Freshman Ambassador</h4>
-                    <div className="board-desc">
-                        <p>
-                        Hello! My name is Leyna, and I am a first year Revelle student
-                        majoring in Biochemistry. I enjoy going outside, traveling and
-                        volunteering whenever I can!
-                        </p>
-                    </div>
-                    </div>
-
-                    {/* Freshman Ambassador */}
-                    <div className="col-sm-6 animated fadeInUp">
-                    <div className="board-image">
-                        <img
-                        alt="board picture"
-                        className="lazy"
-                        src={boardHeadshots['Leo Nunez.png']}
-                        loading="lazy"
-                        />
-                    </div>
-                    <h4>Leo Nunez - Freshman Ambassador</h4>
-                    <div className="board-desc">
-                        <p>
-                        Nice to meet you! I’m Leo, a first-year bioengineering undergrad
-                        assigned to and living in Eighth college, specifically Sankofa. I
-                        love slurpees, tacos, and more importantly animals! It’s a
-                        pleasure to be at UCSD, and I’m very excited to see everyone!
-                        </p>
-                    </div>
-                    </div>
-                   </div>
 
                     
 
