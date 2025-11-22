@@ -4,7 +4,7 @@
   All styles below will inherently take priority over bootstrap styles 
   https://stackoverflow.com/questions/20721248/how-can-i-override-bootstrap-css-styles 
   */
-
+/*Regular */
 body,
 html {
   font-size: 16px;
@@ -133,7 +133,7 @@ small {
 }
 
 .csa-board .col-sm-6:nth-child(even) {
-  border-right: none;
+  /*border-right: none;*/
 }
 
 .csa-board .board-image img {

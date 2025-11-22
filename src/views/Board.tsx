@@ -595,12 +595,11 @@ function Board() {
                             <h4>Sharon Li - Freshman Ambassador</h4>
                             <div className="board-desc">
                                 <p>
-                                Hi, I'm Aaron. I am a second year computer 
-                                engineering major from marshall college. I am 
-                                very excited to be your webmaster co-chair for 
-                                2025-2026. I love trying out new coffee shops 
-                                and recipes. I have a hobby of trying out new 
-                                baking recipes to make for friends. 
+                                Hi! My name is Sharon and I like to thrift, sew, 
+                                draw, and spend time with my friends. I love 
+                                cats and anything that is pink and cutesy, and 
+                                I’m super excited to be one of CSA’s freshman 
+                                ambassadors this year.
                                 </p>
                             </div>
                         </div>

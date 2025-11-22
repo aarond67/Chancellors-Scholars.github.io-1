@@ -37,7 +37,7 @@ function Contact() {
                     <h4>Social Media</h4>
                     <div className="social-media">
                         <div className="col-sm-2">
-                            <a href="https://www.instagram.com/ucsdcsascholars/" target="_blank" title="Instagram"><img alt="instagram" src={instagramIcon} /></a>
+                            <a href="https://www.instagram.com/csascholarsatucsd?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGndYGb9ynyvPPn73C5v-FpxeUXmhCMD6-SOovjBQhn-_3bUsTK52axSekogSc_aem_jBTIZWY6TmQZgH3pdp95Ew" target="_blank" title="Instagram"><img alt="instagram" src={instagramIcon} /></a>
                         </div>
                         <div className="col-sm-2">
                             <a href="https://www.linkedin.com/organization-guest/school/uc-san-diego-chancellor-s-scholars-program/" target="_blank" title="LinkedIn"><img alt="linkedin" src={linkedInIcon} /></a>
