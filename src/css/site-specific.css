@@ -116,7 +116,7 @@ small {
   padding: 10px;
   min-height: 600px;
 }
-
+/*
 .csa-board > .col-sm-3 {
   border-left: 5px solid rgba(233, 233, 233, 0.7);
   border-top: 5px solid rgba(233, 233, 233, 0.7);
@@ -135,7 +135,7 @@ small {
 .csa-board .col-sm-6:nth-child(even) {
   /*border-right: none;*/
 }
-
+*/
 .csa-board .board-image img {
   width: 50% !important;
   object-fit: cover;
