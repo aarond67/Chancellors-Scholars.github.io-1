@@ -1,0 +1,23 @@
+#bootstrap-overrides {
+    .peer-mentoring {
+  margin: 1%;
+}
+
+.peer-mentoring-image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.peer-mentoring-desc p {
+  margin: 15px;
+}
+
+.group_photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+}

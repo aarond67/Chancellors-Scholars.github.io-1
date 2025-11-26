@@ -1,0 +1,39 @@
+#bootstrap-overrides{
+    .spotlight-tab-content {
+  padding: 10px;
+}
+
+.spotlight-tab-content p {
+  text-align: left;
+}
+
+.spotlight-desc {
+  padding: 30px 30px 5px 0px;
+}
+
+.spotlight-btn {
+  color: white;
+  background-color: #0b4a67;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.spotlight-btn:hover {
+  background-color: #0f6b96;
+}
+
+.spotlight-brief {
+  padding: 20px 10px 10px 0px;
+  font-size: 18px;
+}
+
+.csa-board .spotlight-scholar {
+  height: auto;
+  min-height: 200px;
+  border: 5px solid rgba(233, 233, 233, 0.7);
+  padding: 10px 5px;
+  overflow: auto;
+  width: 100%;
+}
+}

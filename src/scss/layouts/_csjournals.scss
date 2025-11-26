@@ -1,0 +1,37 @@
+#bootstrap-overrides {
+.journal-intro {
+  font-size: 15px;
+  padding: 10px 0px;
+  margin-top: 50px;
+}
+
+.journal-header {
+  padding: 0px;
+  font-size: 14px;
+  margin: 0px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.journal-header span {
+  position: relative;
+  left: -40px;
+}
+
+.journal-entry:nth-of-type(1) {
+  padding-top: 10px;
+}
+
+.journal-entry {
+  padding: 0px;
+  background-color: #fdfdfd;
+  font-size: 14px;
+}
+
+#journals-banner {
+  background-image: url('../img/CSP_logo_50.png');
+  background-color: #ffffff;
+  background-position-y: 25%;
+  background-size: 100%;
+}
+}
