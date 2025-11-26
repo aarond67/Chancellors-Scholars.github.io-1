@@ -5,72 +5,7 @@
   https://stackoverflow.com/questions/20721248/how-can-i-override-bootstrap-css-styles 
   */
 /*Regular */
-body,
-html {
-  font-size: 16px;
-  font-family: "Sora", sans-serif;
-}
-a, a:active, a:focus {
-  outline: none;
-  font-family: 'Sora', sans-serif;
-}
 
-h1 {
-  font-size: 2.5rem;
-  font-family: 'Manrope', sans-serif;
-}
-
-h2 {
-  font-size: 2rem;
-  font-family: 'Manrope', sans-serif;
-}
-
-h4 {
-  font-size: 1.25rem;
-  font-family: 'Manrope', sans-serif;
-}
-
-footer {
-  background-color: #4C81C5;
-}
-
-p {
-  font-size: 1rem;
-  font-family: 'Sora', sans-serif;
-}
-
-small {
-  font-size: 0.875rem;
-}
-
-#root {
-  flex-grow: 1;
-}
-
-
-
-
-
-.bar-divider {
-  width: 100%;
-  height: 2px;
-}
-
-
-
-
-
-.contact-main .col-sm-6 {
-  height: 400px;
-}
-
-.contact-main .col-1 {
-  border-right: 1px solid rgba(233, 233, 233, 0.7);
-}
-
-.copyright {
-  padding-top: 10px;
-}
 
 
 
@@ -102,25 +37,6 @@ small {
   box-animation-delay: 1s;
 }
 
-.csa-nav {
-  border: none;
-  background-color: #4C81C5;
-  margin-bottom: 0;
-  border-radius: 0px;
-  font: 16px/1.5 "Manrope", sans-serif;
-  color: #FBFEF9;
-}
-
-.csa-main-col-1,
-.csa-main-col-2 {
-}
-
-.csa-main-col-1 {
-}
-
-.csa-main-col-2 {
-}
-
 .csa-main-updates {
   background-color: rgba(233, 233, 233, 0.85);
   height: 100%;
@@ -128,10 +44,6 @@ small {
   border-radius: 5px;
   padding: 3px 5px;
 }
-
-
-
-
 
 .gray {
   background-color: #d3d3d3;
@@ -141,8 +53,6 @@ small {
   font-size: 18px;
 }
 
-
-
 .logo {
   height: 200px;
 }
@@ -151,13 +61,6 @@ small {
   width: auto;
   height: 100%;
 }
-
-
-
-
-
-
-
 
 .main-col {
   position: absolute;
@@ -176,56 +79,6 @@ small {
   font-size: 46px;
 }
 
-/* Homepage image start (ordered by position) */
-
-
-/* Navbar */
-.navbar-default {
-}
-.navbar-default .navbar-nav > li > a {
-  color: #FBFEF9;
-  padding-left: 12px;
-  padding-right: 12px;
-  border-bottom: 6px solid #4C81C5;
-  border-top: 6px solid #4C81C5;
-}
-
-.navbar-default .navbar-nav > li > .active {
-  border-bottom: 6px solid #335785;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  background-color:  #335785;
-  color: #FBFEF9;
-}
-
-.navbar-default .navbar-nav>li>a:focus {
-  color: #FBFEF9;
-}
-
-.navbar-default .navbar-nav > .active > a {
-  border-bottom: 6px solid #335785;
-  border-top: 6px solid #335785;
-}
-
-@media (min-width:768px) {
-  .navbar {
-    border-radius: 0px;
-  }
-}
-
-#navbar-brand {
-  padding: 6px;
-  padding-top: 10px;
-  padding-left: 20px;
-}
-
-#navbar-brand > img {
-  border-radius: 48%;
-}
-
 .page-container {
   min-height: 70vh;
 }
@@ -239,8 +92,6 @@ small {
   height: 35px;
 }
 
-
-
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
   from {
@@ -251,10 +102,4 @@ small {
     opacity: 1;
   }
 }
-
-
-
-
-
-
 }
