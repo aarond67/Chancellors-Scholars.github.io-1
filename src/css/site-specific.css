@@ -5,101 +5,77 @@
   https://stackoverflow.com/questions/20721248/how-can-i-override-bootstrap-css-styles 
   */
 /*Regular */
-
-
-
-
-.csa-calendar iframe {
-  width: 100%;
-}
-
-.csa-delay-1 {
-  -webkit-animation-delay: 0.25s;
-  -moz-animation-delay: 0.25s;
-  box-animation-delay: 0.25s;
-}
-
-.csa-delay-2 {
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  box-animation-delay: 0.5s;
-}
-
-.csa-delay-3 {
-  -webkit-animation-delay: 0.75s;
-  -moz-animation-delay: 0.75s;
-  box-animation-delay: 0.75s;
-}
-
-.csa-delay-4 {
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  box-animation-delay: 1s;
-}
-
-.csa-main-updates {
-  background-color: rgba(233, 233, 233, 0.85);
-  height: 100%;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  padding: 3px 5px;
-}
-
-.gray {
-  background-color: #d3d3d3;
-}
-
-.header-1 {
-  font-size: 18px;
-}
-
-.logo {
-  height: 200px;
-}
-
-.logo img {
-  width: auto;
-  height: 100%;
-}
-
-.main-col {
-  position: absolute;
-  bottom: 10px;
-  right: 0px;
-}
-
-.main-col-single {
-  color: white;
-  position: absolute;
-  top: 40%;
-  width: 100%;
-}
-
-.main-col-single h1 {
-  font-size: 46px;
-}
-
-.page-container {
-  min-height: 70vh;
-}
-
-.site-links > div > a {
-  color: #FBFEF9;
-}
-
-.social-media img {
-  width: 35px;
-  height: 35px;
-}
-
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-  from {
-    opacity: 0;
+  body, html {
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+  }
+    a, a:active, a:focus {
+    outline: none;
+    font-family: 'Sora', sans-serif;
+    }
+  .csa-main-updates {
+    background-color: rgba(233, 233, 233, 0.85);
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 3px 5px;
   }
 
-  to {
-    opacity: 1;
+  .gray {
+    background-color: #d3d3d3;
   }
-}
+
+  .header-1 {
+    font-size: 18px;
+  }
+
+  .logo {
+    height: 200px;
+  }
+
+  .logo img {
+    width: auto;
+    height: 100%;
+  }
+
+  .main-col {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+  }
+
+  .main-col-single {
+    color: white;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+  }
+
+  .main-col-single h1 {
+    font-size: 46px;
+  }
+
+  .page-container {
+    min-height: 70vh;
+  }
+
+  .site-links > div > a {
+    color: #FBFEF9;
+  }
+
+  .social-media img {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
 }

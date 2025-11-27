@@ -1,4 +1,7 @@
 #bootstrap-overrides { 
+    .csa-calendar iframe {
+  width: 100%;
+}
     .calendar {
         text-align: center;
         font-family: sans-serif;

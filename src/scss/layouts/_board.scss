@@ -29,4 +29,27 @@
   object-fit: cover;
   aspect-ratio: 1 / 1;
 }
+.csa-delay-1 {
+  -webkit-animation-delay: 0.25s;
+  -moz-animation-delay: 0.25s;
+  box-animation-delay: 0.25s;
+}
+
+.csa-delay-2 {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  box-animation-delay: 0.5s;
+}
+
+.csa-delay-3 {
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;
+  box-animation-delay: 0.75s;
+}
+
+.csa-delay-4 {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  box-animation-delay: 1s;
+}
 }
